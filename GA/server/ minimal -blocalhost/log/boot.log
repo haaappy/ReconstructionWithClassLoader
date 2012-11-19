@@ -1,0 +1,61 @@
+16:06:17,883 INFO  [ServerImpl] Starting JBoss (Microcontainer)...
+16:06:17,884 INFO  [ServerImpl] Release ID: JBoss [The Oracle] 5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)
+16:06:17,884 DEBUG [ServerImpl] Using config: org.jboss.bootstrap.BaseServerConfig@62f47396
+16:06:17,884 DEBUG [ServerImpl] Server type: class org.jboss.bootstrap.microcontainer.ServerImpl
+16:06:17,884 DEBUG [ServerImpl] Server loaded through: org.jboss.bootstrap.NoAnnotationURLClassLoader
+16:06:17,884 INFO  [ServerImpl] Bootstrap URL: null
+16:06:17,884 INFO  [ServerImpl] Home Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA
+16:06:17,884 INFO  [ServerImpl] Home URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/
+16:06:17,884 INFO  [ServerImpl] Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/lib/
+16:06:17,885 INFO  [ServerImpl] Patch URL: null
+16:06:17,885 INFO  [ServerImpl] Common Base URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/common/
+16:06:17,885 INFO  [ServerImpl] Common Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/common/lib/
+16:06:17,885 INFO  [ServerImpl] Server Name:  minimal -blocalhost
+16:06:17,885 INFO  [ServerImpl] Server Base Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server
+16:06:17,885 INFO  [ServerImpl] Server Base URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/
+16:06:17,885 INFO  [ServerImpl] Server Config URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/conf/
+16:06:17,885 INFO  [ServerImpl] Server Home Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost
+16:06:17,885 INFO  [ServerImpl] Server Home URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/
+16:06:17,886 INFO  [ServerImpl] Server Data Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost/data
+16:06:17,886 INFO  [ServerImpl] Server Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/lib/
+16:06:17,886 INFO  [ServerImpl] Server Log Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost/log
+16:06:17,886 INFO  [ServerImpl] Server Native Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost/tmp/native
+16:06:17,886 INFO  [ServerImpl] Server Temp Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost/tmp
+16:06:17,886 INFO  [ServerImpl] Server Temp Deploy Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/ minimal -blocalhost/tmp/deploy
+16:06:17,888 DEBUG [ServerImpl] Shutdown hook added Thread[JBoss Shutdown Hook,5,jboss]
+16:06:17,899 DEBUG [KernelFactory] Starting JBoss Kernel construction...
+16:06:18,029 DEBUG [KernelFactory] Completed JBoss Kernel construction.  Duration: 130 milliseconds
+16:06:18,387 DEBUG [ServerImpl] Already in start, ignoring duplicate start
+16:06:18,388 INFO  [ServerImpl] Starting Microcontainer, bootstrapURL=file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/conf/bootstrap.xml
+16:06:18,415 DEBUG [SaxJBossXBParser] Created parser: org.apache.xerces.jaxp.SAXParserImpl@5898bbf6, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+16:06:18,419 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/validation set to: true
+16:06:18,419 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/namespaces set to: true
+16:06:18,419 DEBUG [SaxJBossXBParser] http://apache.org/xml/features/validation/dynamic set to: true
+16:06:18,449 DEBUG [SaxJBossXBParser] Created parser: org.apache.xerces.jaxp.SAXParserImpl@5898bbf6, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+16:06:18,451 DEBUG [ServerImpl] Failed to start
+java.lang.RuntimeException: Error unmarshalling file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/conf/bootstrap.xml
+	at org.jboss.bootstrap.xml.BootstrapParser.parse(BootstrapParser.java:60)
+	at org.jboss.bootstrap.microcontainer.ServerImpl.doStart(ServerImpl.java:123)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:450)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.jboss.xb.binding.JBossXBException: Failed to parse source: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/conf/bootstrap.xml
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:177)
+	at org.jboss.xb.binding.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:119)
+	at org.jboss.bootstrap.xml.BootstrapParser.parse(BootstrapParser.java:53)
+	... 5 more
+Caused by: java.io.FileNotFoundException: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal -blocalhost/conf/bootstrap.xml
+	at org.jboss.net.protocol.file.FileURLConnection.connect(FileURLConnection.java:105)
+	at org.jboss.net.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:112)
+	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:173)
+	... 7 more
+16:06:18,454 INFO  [ServerImpl] Runtime shutdown hook called, forceHalt: true
+16:06:18,477 INFO  [ServerImpl] Shutdown complete

@@ -1,0 +1,3 @@
+2012-11-12 15:11:58,195 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 4s:51ms
+2012-11-12 15:12:08,959 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-12 15:12:09,330 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

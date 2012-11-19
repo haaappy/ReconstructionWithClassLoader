@@ -1,0 +1,12 @@
+2012-11-09 14:49:06,744 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 4s:219ms
+2012-11-09 14:49:15,107 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-09 14:49:15,476 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-11-09 16:06:47,806 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 4s:538ms
+2012-11-09 16:07:18,948 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-09 16:07:19,368 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-11-09 16:07:27,179 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 4s:136ms
+2012-11-09 16:07:29,524 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-09 16:07:29,919 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2012-11-09 16:18:04,393 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 49s:396ms
+2012-11-09 17:12:33,451 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-09 17:12:33,889 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

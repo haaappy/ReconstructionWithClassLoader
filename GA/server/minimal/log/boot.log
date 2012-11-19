@@ -1,0 +1,72 @@
+15:48:57,304 INFO  [ServerImpl] Starting JBoss (Microcontainer)...
+15:48:57,304 INFO  [ServerImpl] Release ID: JBoss [The Oracle] 5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)
+15:48:57,304 DEBUG [ServerImpl] Using config: org.jboss.bootstrap.BaseServerConfig@4bb1aa65
+15:48:57,304 DEBUG [ServerImpl] Server type: class org.jboss.bootstrap.microcontainer.ServerImpl
+15:48:57,304 DEBUG [ServerImpl] Server loaded through: sun.misc.Launcher$AppClassLoader
+15:48:57,304 INFO  [ServerImpl] Bootstrap URL: null
+15:48:57,304 INFO  [ServerImpl] Home Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA
+15:48:57,304 INFO  [ServerImpl] Home URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/
+15:48:57,305 INFO  [ServerImpl] Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/lib/
+15:48:57,305 INFO  [ServerImpl] Patch URL: null
+15:48:57,305 INFO  [ServerImpl] Common Base URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/common/
+15:48:57,305 INFO  [ServerImpl] Common Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/common/lib/
+15:48:57,305 INFO  [ServerImpl] Server Name: minimal
+15:48:57,305 INFO  [ServerImpl] Server Base Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server
+15:48:57,305 INFO  [ServerImpl] Server Base URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/
+15:48:57,305 INFO  [ServerImpl] Server Config URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/conf/
+15:48:57,306 INFO  [ServerImpl] Server Home Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal
+15:48:57,306 INFO  [ServerImpl] Server Home URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/
+15:48:57,306 INFO  [ServerImpl] Server Data Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/data
+15:48:57,306 INFO  [ServerImpl] Server Library URL: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/lib/
+15:48:57,306 INFO  [ServerImpl] Server Log Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/log
+15:48:57,306 INFO  [ServerImpl] Server Native Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/tmp/native
+15:48:57,306 INFO  [ServerImpl] Server Temp Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/tmp
+15:48:57,306 INFO  [ServerImpl] Server Temp Deploy Dir: /home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/tmp/deploy
+15:48:57,308 DEBUG [ServerImpl] Shutdown hook added Thread[JBoss Shutdown Hook,5,jboss]
+15:48:57,317 DEBUG [KernelFactory] Starting JBoss Kernel construction...
+15:48:57,415 DEBUG [KernelFactory] Completed JBoss Kernel construction.  Duration: 98 milliseconds
+15:48:57,567 DEBUG [ServerImpl] Already in start, ignoring duplicate start
+15:48:57,568 INFO  [ServerImpl] Starting Microcontainer, bootstrapURL=file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/conf/bootstrap.xml
+15:48:57,632 DEBUG [SaxJBossXBParser] Created parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl@62facf0b, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+15:48:57,636 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/validation set to: true
+15:48:57,636 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/namespaces set to: true
+15:48:57,636 DEBUG [SaxJBossXBParser] http://apache.org/xml/features/validation/dynamic set to: true
+15:48:57,665 DEBUG [SaxJBossXBParser] Created parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl@62facf0b, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+15:48:57,746 DEBUG [ServerImpl] BootstrapURLs=[bootstrap/classloader.xml, bootstrap/aop.xml, bootstrap/jmx.xml, bootstrap/deployers.xml, bootstrap/profile.xml]
+15:48:57,755 DEBUG [ServerImpl] Deploying bootstrap xml:bootstrap/classloader.xml
+15:48:57,755 DEBUG [SaxJBossXBParser] Created parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl@4b0ea9ba, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+15:48:57,755 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/validation set to: true
+15:48:57,755 DEBUG [SaxJBossXBParser] http://xml.org/sax/features/namespaces set to: true
+15:48:57,755 DEBUG [SaxJBossXBParser] http://apache.org/xml/features/validation/dynamic set to: true
+15:48:57,756 DEBUG [SaxJBossXBParser] Created parser: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl@4b0ea9ba, isNamespaceAware: true, isValidating: true, isXIncludeAware: true
+15:48:58,013 DEBUG [JBossEntityResolver] Cannot resolve [publicID=urn:jboss:classloader:1.0,systemID=null]
+15:48:58,016 DEBUG [JBossEntityResolver] Cannot resolve [publicID=null,systemID=urn:jboss:classloader:1.0]
+15:48:58,017 DEBUG [ServerImpl] Failed to start
+org.jboss.xb.binding.JBossXBException: Failed to parse source: file:/home/frj/work/workspace/jboss5.1src/build/output/jboss-5.1.0.GA/server/minimal/conf/bootstrap/classloader.xml@27,121
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:177)
+	at org.jboss.xb.binding.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:147)
+	at org.jboss.bootstrap.microcontainer.TempBasicXMLDeployer.deploy(TempBasicXMLDeployer.java:150)
+	at org.jboss.bootstrap.microcontainer.ServerImpl.doStart(ServerImpl.java:138)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:450)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.jboss.xb.binding.JBossXBRuntimeException: {urn:jboss:classloader:1.0}classloader cannot appear in this position. Expected content of {urn:jboss:bean-deployer:2.0}deployment is unordered_sequence: {urn:jboss:bean-deployer:2.0}stop? {urn:jboss:bean-deployer:2.0}destroy? {urn:jboss:bean-deployer:2.0}annotation* {urn:jboss:bean-deployer:2.0}alias* {urn:jboss:bean-deployer:2.0}start? {urn:jboss:bean-deployer:2.0}classloader? {urn:jboss:bean-deployer:2.0}create? {choice}* {sequence}*
+	at org.jboss.xb.binding.sunday.unmarshalling.SundayContentHandler.startElement(SundayContentHandler.java:449)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser$DelegatingContentHandler.startElement(SaxJBossXBParser.java:401)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:501)
+	at com.sun.org.apache.xerces.internal.xinclude.XIncludeHandler.startElement(XIncludeHandler.java:909)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:647)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:140)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:533)
+	at org.jboss.xb.binding.parser.sax.SaxJBossXBParser.parse(SaxJBossXBParser.java:173)
+	... 7 more
+15:48:58,019 INFO  [ServerImpl] Runtime shutdown hook called, forceHalt: true
+15:48:58,025 INFO  [ServerImpl] Shutdown complete
