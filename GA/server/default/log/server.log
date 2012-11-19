@@ -1071,3 +1071,151 @@ DEPLOYMENTS IN ERROR:
 2012-11-19 10:10:09,021 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 17s:778ms
 2012-11-19 10:12:11,756 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
 2012-11-19 10:12:17,190 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-11-19 20:01:26,543 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-11-19 20:01:31,265 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2012-11-19 20:01:31,265 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2012-11-19 20:01:31,931 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-11-19 20:01:33,431 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@ee20fe[ defaultDomain='jboss' ]
+2012-11-19 20:01:40,911 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2561149{vfsfile:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/profileservice-secured.jar/}
+2012-11-19 20:01:40,911 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2561149{vfsfile:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/profileservice-secured.jar/}
+2012-11-19 20:01:40,911 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2561149{vfsfile:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/profileservice-secured.jar/}
+2012-11-19 20:01:40,911 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2561149{vfsfile:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/profileservice-secured.jar/}
+2012-11-19 20:01:42,158 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2012-11-19 20:01:42,301 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-11-19 20:01:44,246 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-11-19 20:01:44,264 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-11-19 20:01:44,422 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-11-19 20:01:44,473 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-11-19 20:01:44,473 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-11-19 20:01:44,612 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-11-19 20:01:44,671 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-11-19 20:01:44,672 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-11-19 20:01:44,686 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-11-19 20:01:44,999 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2012-11-19 20:01:45,066 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-11-19 20:01:45,074 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-11-19 20:01:45,092 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-11-19 20:01:45,102 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-11-19 20:01:45,193 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 119 ms
+2012-11-19 20:01:45,210 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2012-11-19 20:01:45,718 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-11-19 20:01:45,742 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2012-11-19 20:01:46,285 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-11-19 20:01:46,297 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-11-19 20:01:46,314 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2012-11-19 20:01:46,329 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2012-11-19 20:01:46,352 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workplace/adaptive_ejb/GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2012-11-19 20:01:46,401 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2012-11-19 20:01:46,415 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.5.2 created.
+2012-11-19 20:01:46,416 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2012-11-19 20:01:46,417 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2012-11-19 20:01:46,417 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.5.2
+2012-11-19 20:01:46,417 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2012-11-19 20:01:46,668 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-11-19 20:01:46,941 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-11-19 20:01:46,988 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-11-19 20:01:46,988 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-11-19 20:01:47,023 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-11-19 20:01:47,023 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@609a8e started
+2012-11-19 20:01:47,033 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-11-19 20:01:47,034 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-11-19 20:01:47,034 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a3a85d started
+2012-11-19 20:01:47,035 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-11-19 20:01:47,035 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@17e85e4 started
+2012-11-19 20:01:47,036 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-11-19 20:01:47,119 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-11-19 20:01:47,438 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-11-19 20:01:47,447 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-11-19 20:01:47,448 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-11-19 20:01:47,448 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-11-19 20:01:47,448 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-11-19 20:01:47,449 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-11-19 20:01:47,450 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-11-19 20:01:47,452 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@d8cc78{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-11-19 20:01:47,453 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@11b8a4c{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-11-19 20:01:47,453 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@14d6f2c{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-11-19 20:01:48,012 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-11-19 20:01:48,025 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-11-19 20:01:48,085 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-11-19 20:01:48,154 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-11-19 20:01:48,158 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-11-19 20:01:48,178 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-11-19 20:01:48,233 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-11-19 20:01:48,235 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-11-19 20:01:48,251 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-11-19 20:01:48,332 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2012-11-19 20:01:48,444 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2012-11-19 20:01:51,110 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-11-19 20:01:51,232 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-11-19 20:01:51,459 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-11-19 20:01:51,591 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-11-19 20:01:51,598 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 30s:317ms
+2012-11-19 20:01:51,608 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-11-19 20:01:51,610 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-11-19 20:01:51,625 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-11-19 20:01:51,638 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-11-19 20:01:51,640 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-11-19 20:01:51,685 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@17e85e4 undeployed
+2012-11-19 20:01:51,687 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@609a8e undeployed
+2012-11-19 20:01:51,695 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a3a85d undeployed
+2012-11-19 20:01:51,706 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2012-11-19 20:01:51,779 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-11-19 20:01:51,780 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-11-19 20:01:51,787 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-11-19 20:01:51,820 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-11-19 20:01:51,915 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-11-19 20:01:51,922 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-11-19 20:01:51,974 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-11-19 20:01:51,982 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-11-19 20:01:52,009 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-11-19 20:01:52,024 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-11-19 20:01:52,034 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2012-11-19 20:01:52,070 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-11-19 20:01:52,073 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2012-11-19 20:01:52,077 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-11-19 20:01:52,080 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-11-19 20:01:52,088 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-11-19 20:01:52,173 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-11-19 20:01:52,281 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-11-19 20:01:52,323 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2012-11-19 20:01:52,323 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2012-11-19 20:01:52,324 INFO  [org.quartz.simpl.SimpleThreadPool] (JBoss Shutdown Hook) There are still 25 worker threads active. See javadoc runInThread(Runnable) for a possible explanation
+2012-11-19 20:01:52,325 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2012-11-19 20:01:52,698 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-11-19 20:01:52,711 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-11-19 20:01:52,884 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-11-19 20:01:54,877 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
