@@ -219,7 +219,6 @@
 	<classpathentry kind="lib" path="GA/server/all/deploy/jms-ra.rar"/>
 	<classpathentry kind="lib" path="GA/server/all/deploy/mail-ra.rar"/>
 	<classpathentry kind="lib" path="GA/server/all/deploy/quartz-ra.rar"/>
-	<classpathentry kind="lib" path="GA/server/all/deploy/uuid-key-generator.sar/org"/>
 	<classpathentry kind="lib" path="GA/server/all/deployers/bsh.deployer/bsh-deployer.jar"/>
 	<classpathentry kind="lib" path="GA/server/all/deployers/ejb3.deployer/jboss-ejb3-deployer.jar"/>
 	<classpathentry kind="lib" path="GA/server/all/deployers/ejb3.deployer/jboss-ejb3-iiop.jar"/>
