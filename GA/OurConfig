@@ -4,4 +4,4 @@
 安装的数据库需要有个名为aejb_test的数据库，用户名为root，密码为123456。
 
 2、运行环境配置
-新的配置文件名为ejbDefault, 需要输入参数 -c ejbDefault
+新的配置文件名为aejb, 需要输入参数 -c aejb
