@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="jboss-ejb-core-src"/>
+	<classpathentry kind="src" path="jboss-deployers-impl-src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="GA/bin/run.jar"/>
 	<classpathentry kind="lib" path="GA/lib/endorsed/activation.jar"/>

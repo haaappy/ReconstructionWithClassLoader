@@ -22,13 +22,19 @@
 package org.jboss.injection;
 
 import java.lang.reflect.Proxy;
+import java.util.HashMap;
+import java.util.Hashtable;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
 import javax.naming.NameNotFoundException;
 import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContextType;
 
 import org.hibernate.Session;
+import org.jboss.deployers.plugins.deployers.DeployersImpl;
+import org.jboss.ejb3.EJBContainer;
 import org.jboss.ejb3.entity.ExtendedEntityManager;
 import org.jboss.ejb3.entity.hibernate.ExtendedSessionInvocationHandler;
 import org.jboss.ejb3.entity.hibernate.TransactionScopedSessionInvocationHandler;
@@ -133,6 +139,33 @@ public class PcEncInjector implements EncInjector
          try
          {
             Util.rebind(container.getEnc(), encName, entityManager);
+            
+         // *******************************************************************//
+          //   add the code about JNDI put injection (by lhc 2012.12.13)
+            
+            String routeName = ((EJBContainer)container).getDeploymentUnit().getUrl().toString();
+            String unitName = factory.getKernelName();
+            
+            if (DeployersImpl.jndiProperties == null){
+            	DeployersImpl.jndiProperties = new Hashtable<String, String>();
+            	DeployersImpl.jndiProperties.put(Context.INITIAL_CONTEXT_FACTORY, "org.jnp.interfaces.NamingContextFactory");
+            	DeployersImpl.jndiProperties.put(Context.PROVIDER_URL,"jnp://localhost");
+            	DeployersImpl.context = new InitialContext(DeployersImpl.jndiProperties);
+            }
+           
+            try{
+            	HashMap<String, String> hm = (HashMap<String, String>) DeployersImpl.context.lookup("AEJBConUrlUnitNameMap");
+            	hm.put(routeName, unitName);
+            	DeployersImpl.context.rebind("AEJBConUrlUnitNameMap", hm);
+            	}
+            catch(Exception e){
+            	HashMap<String, String> aejbConMap = new HashMap<String, String>();
+                aejbConMap.put(routeName, unitName);
+                DeployersImpl.context.bind("AEJBConUrlUnitNameMap", aejbConMap);
+            }
+            
+            // ************************************************************
+                
          }
          catch (NamingException e)
          {
