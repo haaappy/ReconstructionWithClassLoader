@@ -1138,6 +1138,7 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
       {
        	  // ***********************************************************
     	  //  add the nameList and find session bean , touch it (by lhc 2012.12.13)
+    	  // modify the code because of unitName Set (by lhc 2012.12.30)
     	  
     	  if (stageName.equals("Installed")){
     		  ArrayList<String>  nameList = new ArrayList<String>();
@@ -1147,33 +1148,37 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
     		  }  
     		 
     		  // find the map in  Installed stage   		 
-    		if (jndiProperties != null &&  nameList.size()!=0){
-    			try{
-    				HashMap<String, String> hm = (HashMap<String, String>) DeployersImpl.context.lookup("AEJBConUrlUnitNameMap");
-    				for(String v:hm.values()){
-    					if (nameList.contains(v)){
-    						for(String k:hm.keySet()){
-    							if (hm.get(k).equals(v)){
-    								try{
-    									String cmd = k.substring(7).substring(0,k.length()-8);
-    									//System.out.println("---$$$---touchName:"+cmd);
-    				    				  Runtime.getRuntime().exec("touch "+cmd);
-    				    			  }
-    				    			  catch (Exception e){
-    				    				  System.out.println("CMD touch exception\n"+e.toString());
-    				    			  }
-    							}
-    						}
-    					}
-    				}
-    			}
-    			catch(Exception e){
-    				System.out.println("JNDI lookup exception.\n"+e.toString());
-    			}
-    		}
-    	  }
-    	  
-    	  // *****************************************************************
+    		  if (jndiProperties != null &&  nameList.size()!=0){
+      			try{
+      				HashMap<String, HashSet<String>> hm = (HashMap<String, HashSet<String>>) DeployersImpl.context.lookup("AEJBConUrlUnitNameSetMap");
+      				for(HashSet<String> v: hm.values()){
+      					for(String setItem: v){
+      						if (nameList.contains(setItem)){
+          						for(String k:hm.keySet()){
+          							if (hm.get(k).contains(setItem)){
+          								try{
+          									String cmd = k.substring(7).substring(0,k.length()-8);
+          									//System.out.println("Deployer---$$$---touchName:"+cmd);
+          				    				Runtime.getRuntime().exec("touch "+cmd);
+          				    			  }
+          				    			  catch (Exception e){
+          				    				  System.out.println("CMD touch exception\n"+e.toString());
+          				    			  }
+          							}
+          						}
+          					}
+      					}		
+      				}
+      			}
+      			catch(Exception e){
+      				//System.out.println("JNDI lookup exception.\n"+e.toString());
+      				// can move to this place
+      			}
+      		}
+      	  }
+      	  
+      	  // *****************************************************************
+      	  
     	  
          if (ControllerState.INSTALLED.equals(toState) && DeploymentState.DEPLOYING.equals(deploymentContext.getState()))
          {

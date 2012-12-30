@@ -69,6 +69,7 @@ import org.jboss.aop.joinpoint.ConstructionInvocation;
 import org.jboss.aop.util.MethodHashing;
 import org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor;
 import org.jboss.beans.metadata.api.annotations.Inject;
+import org.jboss.deployers.plugins.deployers.DeployersImpl;
 import org.jboss.ejb.AllowedOperationsAssociation;
 import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
@@ -885,6 +886,40 @@ public abstract class EJBContainer implements Container, IndirectContainer<EJBCo
       
       // Allow invocations until stop()
       this.allowInvocations();
+      
+      //  ************************************************************************************
+      // InterfacenameList and find session bean , touch it (by lhc 2012.12.30)
+      
+      for (Class<?> t:this.getBusinessInterfaces()){
+    	  if (DeployersImpl.jndiProperties != null){
+  			try{
+  				HashMap<String, ArrayList<String>> hm = (HashMap<String, ArrayList<String>>) DeployersImpl.context.lookup("AEJBConUrlInterfaceNameListMap");
+  				for(ArrayList<String> list: hm.values()){
+  					if (list.contains(t.getName())){
+  						for(String k:hm.keySet()){
+  							if (hm.get(k).equals(list)){
+  								try{
+									String cmd = k.substring(7).substring(0,k.length()-8);
+									//System.out.println("EJBContainer---$$$---touchName:"+cmd);
+				    				Runtime.getRuntime().exec("touch "+cmd);
+				    			  }
+				    			  catch (Exception e){
+				    				  System.out.println("CMD touch exception\n"+e.toString());
+				    			  }
+  							}
+  						}
+  					}	
+  				}
+  			}
+  			catch(Exception e){
+				// System.out.println("JNDI lookup exception.\n"+e.toString());
+				// can move to this place
+			}
+    	  }
+      }     
+      // ************************************************************************************
+      
+      
    }
    
    // Everything must be done in start to make sure all dependencies have been satisfied

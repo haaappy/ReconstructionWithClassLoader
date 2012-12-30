@@ -23,6 +23,7 @@ package org.jboss.injection;
 
 import java.lang.reflect.Proxy;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Hashtable;
 
 import javax.naming.Context;
@@ -142,6 +143,7 @@ public class PcEncInjector implements EncInjector
             
          // *******************************************************************//
           //   add the code about JNDI put injection (by lhc 2012.12.13)
+          //   modify the code because of UnitName Set (by lhc 2012.12.30)
             
             String routeName = ((EJBContainer)container).getDeploymentUnit().getUrl().toString();
             String unitName = factory.getKernelName();
@@ -154,17 +156,27 @@ public class PcEncInjector implements EncInjector
             }
            
             try{
-            	HashMap<String, String> hm = (HashMap<String, String>) DeployersImpl.context.lookup("AEJBConUrlUnitNameMap");
-            	hm.put(routeName, unitName);
-            	DeployersImpl.context.rebind("AEJBConUrlUnitNameMap", hm);
+            	HashMap<String, HashSet<String>> hm = (HashMap<String, HashSet<String>>) DeployersImpl.context.lookup("AEJBConUrlUnitNameSetMap");
+            	if (hm.containsKey(routeName)){
+            		hm.get(routeName).add(unitName);
             	}
+            	else{
+            		HashSet<String> set = new HashSet<String>();
+            		set.add(unitName);
+            		hm.put(routeName, set);
+            	}
+            	
+            	DeployersImpl.context.rebind("AEJBConUrlUnitNameSetMap", hm);
+            }
             catch(Exception e){
-            	HashMap<String, String> aejbConMap = new HashMap<String, String>();
-                aejbConMap.put(routeName, unitName);
-                DeployersImpl.context.bind("AEJBConUrlUnitNameMap", aejbConMap);
+            	HashMap<String, HashSet<String>> aejbConMap = new HashMap<String, HashSet<String>>();
+            	HashSet<String> set = new HashSet<String>();
+        		set.add(unitName);
+                aejbConMap.put(routeName, set);
+                DeployersImpl.context.bind("AEJBConUrlUnitNameSetMap", aejbConMap);
             }
             
-            // ************************************************************
+            // **************************************************************
                 
          }
          catch (NamingException e)

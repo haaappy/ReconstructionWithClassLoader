@@ -21,10 +21,17 @@
  */
 package org.jboss.injection;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+import org.jboss.deployers.plugins.deployers.DeployersImpl;
+import org.jboss.ejb3.EJBContainer;
 import org.jboss.logging.Logger;
 import org.jboss.util.naming.Util;
 
 import javax.naming.Context;
+import javax.naming.InitialContext;
 import javax.naming.NameNotFoundException;
 import javax.naming.LinkRef;
 import javax.naming.NamingException;
@@ -97,6 +104,39 @@ public class EjbEncInjector implements EncInjector
          log.debug(" " + encName + " --> " + jndiName);
          Context enc = container.getEnc();
          Util.rebind(enc, encName, new LinkRef(jndiName));
+         
+      // ************************************************************************
+       // SessionBean->SessionBean  added  (by lhc 2012.12.30)  
+         String routeName = ((EJBContainer)container).getDeploymentUnit().getUrl().toString();
+         
+         ArrayList<String> interfaceNameList = new ArrayList<String>();        
+         for(Injector injector: container.getInjectors()){
+        	 if (injector instanceof JndiFieldInjector){
+        		 String interfaceName = ((JndiFieldInjector)injector).property.getType().getName();
+        		 interfaceNameList.add(interfaceName);
+        	 }      	 
+         }      
+         
+         if (DeployersImpl.jndiProperties == null){
+         	DeployersImpl.jndiProperties = new Hashtable<String, String>();
+         	DeployersImpl.jndiProperties.put(Context.INITIAL_CONTEXT_FACTORY, "org.jnp.interfaces.NamingContextFactory");
+         	DeployersImpl.jndiProperties.put(Context.PROVIDER_URL,"jnp://localhost");
+         	DeployersImpl.context = new InitialContext(DeployersImpl.jndiProperties);
+         }
+        
+         try{
+         	HashMap<String, ArrayList<String>> hm = (HashMap<String, ArrayList<String>>) DeployersImpl.context.lookup("AEJBConUrlInterfaceNameListMap");
+         	hm.put(routeName, interfaceNameList);
+         	DeployersImpl.context.rebind("AEJBConUrlInterfaceNameListMap", hm);
+         	}
+         catch(Exception e){
+         	HashMap<String, ArrayList<String>> aejbConMap = new HashMap<String, ArrayList<String>>();
+             aejbConMap.put(routeName, interfaceNameList);
+             DeployersImpl.context.bind("AEJBConUrlInterfaceNameListMap", aejbConMap);
+         }
+                 
+         // **********************************************************************
+         
       }
       catch (NamingException e)
       {

@@ -1,0 +1,374 @@
+2012-12-24 17:53:00,800 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2012-12-24 17:53:05,317 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2012-12-24 17:53:05,317 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2012-12-24 17:53:05,916 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2012-12-24 17:53:06,642 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@ee20fe[ defaultDomain='jboss' ]
+2012-12-24 17:53:10,219 WARN  [org.jboss.deployment.MappedReferenceMetaDataResolverDeployer] (main) Unresolved references exist in JBossMetaData:[#SessionABean:AnnotatedEJBReferenceMetaData{name=org.artemisprojects.aware.aejb.samples.complicate.session.SessionABean/b,ejb-ref-type=null,link=null,ignore-dependecy=false,mapped/jndi-name=SessionBBean/remote,resolved-jndi-name=null,beanInterface=interface org.artemisprojects.aware.aejb.samples.complicate.session.SessionB}]
+2012-12-24 17:53:10,317 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1296828{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/A.jar/}
+2012-12-24 17:53:10,317 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1296828{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/A.jar/}
+2012-12-24 17:53:10,318 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18733613{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/B.jar/}
+2012-12-24 17:53:10,318 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@18733613{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/B.jar/}
+2012-12-24 17:53:10,321 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2611685{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2012-12-24 17:53:10,322 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2611685{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2012-12-24 17:53:10,322 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2611685{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2012-12-24 17:53:10,322 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@2611685{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2012-12-24 17:53:10,881 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2012-12-24 17:53:11,897 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2012-12-24 17:53:23,083 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2012-12-24 17:53:23,094 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-12-24 17:53:23,143 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2012-12-24 17:53:23,207 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2012-12-24 17:53:23,207 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2012-12-24 17:53:23,440 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2012-12-24 17:53:23,515 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2012-12-24 17:53:23,515 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2012-12-24 17:53:23,527 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2012-12-24 17:53:23,780 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2012-12-24 17:53:23,814 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-12-24 17:53:23,814 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-12-24 17:53:23,825 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2012-12-24 17:53:23,827 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2012-12-24 17:53:23,858 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 43 ms
+2012-12-24 17:53:23,871 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2012-12-24 17:53:24,318 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2012-12-24 17:53:24,351 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2012-12-24 17:53:24,362 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2012-12-24 17:53:24,362 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2012-12-24 17:53:24,468 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2012-12-24 17:53:24,478 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2012-12-24 17:53:24,494 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/META-INF/ra.xml
+2012-12-24 17:53:24,816 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2012-12-24 17:53:25,098 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2012-12-24 17:53:25,177 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-12-24 17:53:25,177 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@6b8cd1 started
+2012-12-24 17:53:25,185 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-12-24 17:53:25,190 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-12-24 17:53:25,190 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a1cb1 started
+2012-12-24 17:53:25,192 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2012-12-24 17:53:25,193 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2012-12-24 17:53:25,193 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2012-12-24 17:53:25,194 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2012-12-24 17:53:25,194 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@7df593 started
+2012-12-24 17:53:25,276 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2012-12-24 17:53:25,318 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' to JNDI name 'java:DefaultMySqlDS'
+2012-12-24 17:53:25,744 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: A.jar
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-12-24 17:53:25,745 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#c
+2012-12-24 17:53:25,746 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-12-24 17:53:25,746 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionABean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionA
+2012-12-24 17:53:25,746 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.complicate.session.SessionA
+2012-12-24 17:53:25,746 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionABean/remote
+2012-12-24 17:53:25,746 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3) to KernelDeployment of: A.jar
+2012-12-24 17:53:25,748 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@c3b6d2{name=jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-12-24 17:53:25,792 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: B.jar
+2012-12-24 17:53:25,792 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#d
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#e
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.complicate.session.SessionB
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionB
+2012-12-24 17:53:25,793 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3) to KernelDeployment of: B.jar
+2012-12-24 17:53:25,794 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@3e3b5{name=jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-12-24 17:53:25,823 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#c
+2012-12-24 17:53:25,893 INFO  [org.hibernate.cfg.annotations.Version] (main) Hibernate Annotations 3.4.0.GA
+2012-12-24 17:53:25,913 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.3.1.GA
+2012-12-24 17:53:25,919 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2012-12-24 17:53:25,939 INFO  [org.hibernate.cfg.Environment] (main) Bytecode provider name : javassist
+2012-12-24 17:53:25,942 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2012-12-24 17:53:26,005 INFO  [org.hibernate.annotations.common.Version] (main) Hibernate Commons Annotations 3.1.0.GA
+2012-12-24 17:53:26,011 INFO  [org.hibernate.ejb.Version] (main) Hibernate EntityManager 3.4.0.GA
+2012-12-24 17:53:26,028 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: c
+	...]
+2012-12-24 17:53:26,038 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2012-12-24 17:53:26,106 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityC
+2012-12-24 17:53:26,197 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityC on table EntityC
+2012-12-24 17:53:26,229 INFO  [org.hibernate.validator.Version] (main) Hibernate Validator 3.1.0.GA
+2012-12-24 17:53:26,259 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2012-12-24 17:53:26,294 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2012-12-24 17:53:26,298 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2012-12-24 17:53:26,466 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2012-12-24 17:53:26,466 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2012-12-24 17:53:26,477 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2012-12-24 17:53:26,479 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2012-12-24 17:53:26,481 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2012-12-24 17:53:26,482 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2012-12-24 17:53:26,482 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2012-12-24 17:53:26,483 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2012-12-24 17:53:26,484 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2012-12-24 17:53:26,484 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2012-12-24 17:53:26,484 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2012-12-24 17:53:26,484 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2012-12-24 17:53:26,485 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2012-12-24 17:53:26,487 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2012-12-24 17:53:26,487 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2012-12-24 17:53:26,488 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2012-12-24 17:53:26,488 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#c
+2012-12-24 17:53:26,488 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2012-12-24 17:53:26,491 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2012-12-24 17:53:26,492 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2012-12-24 17:53:26,492 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2012-12-24 17:53:26,492 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2012-12-24 17:53:26,563 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2012-12-24 17:53:26,668 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#c
+2012-12-24 17:53:26,669 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:26,675 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#c
+2012-12-24 17:53:26,676 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2012-12-24 17:53:26,681 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2012-12-24 17:53:26,683 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2012-12-24 17:53:26,793 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2012-12-24 17:53:26,794 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:26,804 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#d
+2012-12-24 17:53:26,804 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: d
+	...]
+2012-12-24 17:53:26,805 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2012-12-24 17:53:26,806 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityD
+2012-12-24 17:53:26,807 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityD on table EntityD
+2012-12-24 17:53:26,819 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2012-12-24 17:53:26,819 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2012-12-24 17:53:26,820 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2012-12-24 17:53:26,820 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2012-12-24 17:53:26,820 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2012-12-24 17:53:26,820 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2012-12-24 17:53:26,820 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2012-12-24 17:53:26,820 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2012-12-24 17:53:26,820 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2012-12-24 17:53:26,820 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2012-12-24 17:53:26,820 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2012-12-24 17:53:26,820 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2012-12-24 17:53:26,821 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#d
+2012-12-24 17:53:26,821 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2012-12-24 17:53:26,822 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2012-12-24 17:53:26,822 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2012-12-24 17:53:26,822 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2012-12-24 17:53:26,822 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2012-12-24 17:53:26,828 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2012-12-24 17:53:26,831 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#d
+2012-12-24 17:53:26,831 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:26,837 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#d
+2012-12-24 17:53:26,837 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2012-12-24 17:53:26,838 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2012-12-24 17:53:26,839 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2012-12-24 17:53:26,908 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2012-12-24 17:53:26,910 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:26,917 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#e
+2012-12-24 17:53:26,918 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: e
+	...]
+2012-12-24 17:53:26,918 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2012-12-24 17:53:26,920 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityE
+2012-12-24 17:53:26,920 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityE on table EntityE
+2012-12-24 17:53:26,932 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2012-12-24 17:53:26,933 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2012-12-24 17:53:26,933 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2012-12-24 17:53:26,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2012-12-24 17:53:26,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2012-12-24 17:53:26,933 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2012-12-24 17:53:26,934 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2012-12-24 17:53:26,934 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2012-12-24 17:53:26,934 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2012-12-24 17:53:26,934 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2012-12-24 17:53:26,934 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#e
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2012-12-24 17:53:26,935 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2012-12-24 17:53:26,941 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2012-12-24 17:53:26,944 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#e
+2012-12-24 17:53:26,945 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:26,954 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#e
+2012-12-24 17:53:26,954 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2012-12-24 17:53:26,956 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2012-12-24 17:53:26,958 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2012-12-24 17:53:27,033 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2012-12-24 17:53:27,034 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:53:27,060 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3
+2012-12-24 17:53:27,164 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.complicate.session.SessionBBean ejbName: SessionBBean
+2012-12-24 17:53:27,196 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SessionBBean/remote - EJB3.x Default Remote Business Interface
+	SessionBBean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionB - EJB3.x Remote Business Interface
+
+2012-12-24 17:53:27,278 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3
+2012-12-24 17:53:27,295 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.complicate.session.SessionABean ejbName: SessionABean
+2012-12-24 17:53:27,303 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SessionABean/remote - EJB3.x Default Remote Business Interface
+	SessionABean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionA - EJB3.x Remote Business Interface
+
+2012-12-24 17:53:27,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2012-12-24 17:53:27,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-12-24 17:53:27,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-12-24 17:53:27,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-12-24 17:53:27,390 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-12-24 17:53:27,391 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2012-12-24 17:53:27,392 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2012-12-24 17:53:27,393 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@c099ef{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-12-24 17:53:27,393 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@10634e7{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-12-24 17:53:27,393 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@53f9d8{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2012-12-24 17:53:27,415 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-12-24 17:53:27,416 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-12-24 17:53:27,422 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2012-12-24 17:53:27,443 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-12-24 17:53:27,444 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-12-24 17:53:27,451 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2012-12-24 17:53:27,477 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-12-24 17:53:27,477 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-12-24 17:53:27,484 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2012-12-24 17:53:27,537 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2012-12-24 17:53:27,619 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2012-12-24 17:53:27,813 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-12-24 17:53:27,835 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-12-24 17:53:27,838 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 31s:747ms
+2012-12-24 17:54:47,056 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2012-12-24 17:54:47,061 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-12-24 17:54:47,064 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2012-12-24 17:54:47,067 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-12-24 17:54:47,070 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2012-12-24 17:54:47,093 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@6b8cd1 undeployed
+2012-12-24 17:54:47,097 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@7df593 undeployed
+2012-12-24 17:54:47,099 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a1cb1 undeployed
+2012-12-24 17:54:47,130 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2012-12-24 17:54:47,132 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2012-12-24 17:54:47,152 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3
+2012-12-24 17:54:47,160 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.complicate.session.SessionABean ejbName: SessionABean
+2012-12-24 17:54:47,180 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3
+2012-12-24 17:54:47,184 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.complicate.session.SessionBBean ejbName: SessionBBean
+2012-12-24 17:54:47,201 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2012-12-24 17:54:47,208 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2012-12-24 17:54:47,226 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2012-12-24 17:54:47,230 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2012-12-24 17:54:47,249 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2012-12-24 17:54:47,254 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2012-12-24 17:54:47,277 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2012-12-24 17:54:47,288 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2012-12-24 17:54:47,329 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2012-12-24 17:54:47,370 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2012-12-24 17:54:47,373 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2012-12-24 17:54:47,376 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2012-12-24 17:54:47,382 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2012-12-24 17:54:47,388 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2012-12-24 17:54:47,422 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2012-12-24 17:54:47,462 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2012-12-24 17:54:47,463 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (JBoss Shutdown Hook) Stopping persistence unit persistence.unit:unitName=#c
+2012-12-24 17:54:47,463 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2012-12-24 17:54:47,463 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) Running hbm2ddl schema export
+2012-12-24 17:54:47,464 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) exporting generated schema to database
+2012-12-24 17:54:47,500 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) schema export complete
+2012-12-24 17:54:47,501 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: persistence.unit:unitName=#c
+2012-12-24 17:54:47,502 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:54:47,502 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: persistence.unit:unitName=#c
+2012-12-24 17:54:47,504 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (JBoss Shutdown Hook) Stopping persistence unit persistence.unit:unitName=#d
+2012-12-24 17:54:47,504 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2012-12-24 17:54:47,504 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) Running hbm2ddl schema export
+2012-12-24 17:54:47,505 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) exporting generated schema to database
+2012-12-24 17:54:47,534 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) schema export complete
+2012-12-24 17:54:47,534 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: persistence.unit:unitName=#d
+2012-12-24 17:54:47,535 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:54:47,535 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: persistence.unit:unitName=#d
+2012-12-24 17:54:47,536 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (JBoss Shutdown Hook) Stopping persistence unit persistence.unit:unitName=#e
+2012-12-24 17:54:47,536 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2012-12-24 17:54:47,536 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) Running hbm2ddl schema export
+2012-12-24 17:54:47,537 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) exporting generated schema to database
+2012-12-24 17:54:47,567 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (JBoss Shutdown Hook) schema export complete
+2012-12-24 17:54:47,568 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: persistence.unit:unitName=#e
+2012-12-24 17:54:47,569 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2012-12-24 17:54:47,569 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: persistence.unit:unitName=#e
+2012-12-24 17:54:47,574 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' from JNDI name 'java:DefaultMySqlDS'
+2012-12-24 17:54:47,779 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2012-12-24 17:54:47,781 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2012-12-24 17:54:48,065 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2012-12-24 17:54:49,693 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
