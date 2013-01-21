@@ -888,7 +888,7 @@ public abstract class EJBContainer implements Container, IndirectContainer<EJBCo
       this.allowInvocations();
       
       //  ************************************************************************************
-      // InterfacenameList and find session bean , touch it (by lhc 2012.12.30)
+      // AEJB InterfacenameList and find session bean , touch it (by lhc 2012.12.30)
       
       for (Class<?> t:this.getBusinessInterfaces()){
     	  if (DeployersImpl.jndiProperties != null){

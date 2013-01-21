@@ -135,7 +135,7 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
    /** The ManagedDeploymentCreator plugin */
    private ManagedObjectCreator mgtObjectCreator = null;
    
-   // ******************************* difinition********************************
+   // AEJB ******************************* difinition********************************
    
    public static InitialContext context;
    public static Hashtable<String, String> jndiProperties;
@@ -1137,8 +1137,8 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
       finally
       {
        	  // ***********************************************************
-    	  //  add the nameList and find session bean , touch it (by lhc 2012.12.13)
-    	  // modify the code because of unitName Set (by lhc 2012.12.30)
+    	  // AEJB add the nameList and find session bean , touch it (by lhc 2012.12.13)
+    	  // AEJB modify the code because of unitName Set (by lhc 2012.12.30)
     	  
     	  if (stageName.equals("Installed")){
     		  ArrayList<String>  nameList = new ArrayList<String>();

@@ -106,7 +106,7 @@ public class EjbEncInjector implements EncInjector
          Util.rebind(enc, encName, new LinkRef(jndiName));
          
       // ************************************************************************
-       // SessionBean->SessionBean  added  (by lhc 2012.12.30)  
+       // AEJB SessionBean->SessionBean  added  (by lhc 2012.12.30)  
          String routeName = ((EJBContainer)container).getDeploymentUnit().getUrl().toString();
          
          ArrayList<String> interfaceNameList = new ArrayList<String>();        

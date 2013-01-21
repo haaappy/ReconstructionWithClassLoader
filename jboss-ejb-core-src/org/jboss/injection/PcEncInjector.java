@@ -142,8 +142,8 @@ public class PcEncInjector implements EncInjector
             Util.rebind(container.getEnc(), encName, entityManager);
             
          // *******************************************************************//
-          //   add the code about JNDI put injection (by lhc 2012.12.13)
-          //   modify the code because of UnitName Set (by lhc 2012.12.30)
+          //   AEJB add the code about JNDI put injection (by lhc 2012.12.13)
+          //   AEJB modify the code because of UnitName Set (by lhc 2012.12.30)
             
             String routeName = ((EJBContainer)container).getDeploymentUnit().getUrl().toString();
             String unitName = factory.getKernelName();
