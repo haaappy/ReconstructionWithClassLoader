@@ -23,6 +23,7 @@ package org.jboss.deployers.plugins.annotations;
 
 import java.lang.ref.WeakReference;
 
+import org.jboss.classloader.spi.base.BaseClassLoader;
 import org.jboss.util.JBossObject;
 
 /**
@@ -68,7 +69,7 @@ abstract class WeakClassLoaderHolder extends JBossObject
    protected Class<?> loadClass(String className)
    {
       try
-      {
+      { 
          return Class.forName(className, false, getClassLoader());
       }
       catch (ClassNotFoundException e)

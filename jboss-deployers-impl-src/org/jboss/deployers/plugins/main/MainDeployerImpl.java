@@ -638,6 +638,10 @@ public class MainDeployerImpl implements MainDeployer, MainDeployerStructure
 
    public void process()
    {
+	  // AEJB
+	  System.out.println("MainDeployerImpl StartTime:"+System.nanoTime());
+	   
+	   
       if (deployers == null)
          throw new IllegalStateException("No deployers");
 
@@ -706,6 +710,9 @@ public class MainDeployerImpl implements MainDeployer, MainDeployerStructure
       {
          unlockRead();
       }
+      
+      // AEJB
+   	  System.out.println("MainDeployerImpl finishTime:"+System.nanoTime());
    }
 
    public DeploymentStage getDeploymentStage(String deploymentName) throws DeploymentException

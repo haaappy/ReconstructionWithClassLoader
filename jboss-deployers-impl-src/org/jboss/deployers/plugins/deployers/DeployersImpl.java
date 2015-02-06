@@ -21,6 +21,7 @@
  */
 package org.jboss.deployers.plugins.deployers;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -28,9 +29,11 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -40,7 +43,9 @@ import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import javax.naming.Context;
 import javax.naming.InitialContext;
+import javax.naming.NamingException;
 
+import org.jboss.classloader.spi.base.BaseClassLoader;
 import org.jboss.dependency.spi.Controller;
 import org.jboss.dependency.spi.ControllerContext;
 import org.jboss.dependency.spi.ControllerContextActions;
@@ -65,10 +70,12 @@ import org.jboss.deployers.structure.spi.DeploymentContext;
 import org.jboss.deployers.structure.spi.DeploymentMBean;
 import org.jboss.deployers.structure.spi.DeploymentUnit;
 import org.jboss.deployers.structure.spi.scope.ScopeBuilder;
+import org.jboss.deployers.vfs.plugins.structure.AbstractVFSDeploymentContext;
 import org.jboss.kernel.spi.dependency.KernelController;
 import org.jboss.logging.Logger;
 import org.jboss.managed.api.ManagedObject;
 import org.jboss.metadata.spi.repository.MutableMetaDataRepository;
+import org.jboss.virtual.VirtualFile;
 
 /**
  * DeployersImpl.
@@ -139,6 +146,8 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
    
    public static InitialContext context;
    public static Hashtable<String, String> jndiProperties;
+   public static Map<BaseClassLoader, DeploymentContext> classLoaderContextMap = new ConcurrentHashMap<BaseClassLoader, DeploymentContext>();
+   public static HashSet<DeploymentContext> reconstructionSet = new HashSet<DeploymentContext>();
    
    //***************************************************************************
 
@@ -662,8 +671,67 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
    }
 
    public void process(List<DeploymentContext> deploy, List<DeploymentContext> undeploy)
-   {
-      boolean trace = log.isTraceEnabled();
+   {  
+	  
+	  // AEJB   reconstruction!!
+   
+	  if (undeploy != null && undeploy.isEmpty() == false)
+      {
+		  if (classLoaderContextMap != null)
+		  {  
+			  reconstructionSet.clear();
+			  
+			  LinkedList<BaseClassLoader> rmvList = new LinkedList<BaseClassLoader>();
+			  			  
+			  for (DeploymentContext dc : undeploy)
+			  {
+				  BaseClassLoader bcl = (BaseClassLoader) dc.getClassLoader();
+				  rmvList.push(bcl);
+			  }
+			  
+			  while (!rmvList.isEmpty())  // reconstruction step by step
+			  {
+				  BaseClassLoader bcl = (BaseClassLoader) rmvList.pop();
+				  for (BaseClassLoader reverseDep: bcl.reverseDepList.keySet())
+				  {
+					  if (!rmvList.contains(reverseDep))
+					  {
+						  rmvList.push(reverseDep);
+					  }
+				  }
+				  DeploymentContext reconstructContext = classLoaderContextMap.get(bcl);
+				  if (reconstructContext!=null && !undeploy.contains(reconstructContext))
+				  {
+					  undeploy.add(reconstructContext);  // reconstruction: undeploy the broken context
+					  reconstructionSet.add(reconstructContext);
+				  }	
+				  classLoaderContextMap.remove(bcl);
+			  }
+		  }
+      }
+		  
+	  
+	  if (deploy != null && deploy.isEmpty() == false)
+      {
+		  if (classLoaderContextMap != null)
+		  {
+			  for (DeploymentContext rdc: reconstructionSet)  // reconstruction
+			  {
+				  AbstractVFSDeploymentContext adc = new AbstractVFSDeploymentContext(rdc.getName(), rdc.getSimpleName(), ((AbstractVFSDeploymentContext)rdc).getRoot(), rdc.getRelativePath());
+				  adc.setClassPath(((AbstractVFSDeploymentContext)rdc).getMutableClassPath());
+				  adc.setDeployment(rdc.getDeployment());
+				  adc.setMetaDataLocations(((AbstractVFSDeploymentContext) rdc).getMutableMetaDataLocations());
+				  adc.setState(DeploymentState.DEPLOYING);
+				  deploy.add(adc);
+				  System.out.println("RRReconstruction! "+adc.getName());
+			  }				  				  
+		  }	  
+      }  
+      
+	  // *****************************************************************
+	  
+	  
+	  boolean trace = log.isTraceEnabled();
 
       // There is something to undeploy
       if (undeploy != null && undeploy.isEmpty() == false)
@@ -686,6 +754,10 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
                toUndeploy.add(deploymentControllerContext);
             }
          }
+         
+         
+      // AEJB test time
+      		  System.out.println("undeploy="+undeploy.toString() + " " + System.nanoTime());
 
          // Go through the states in reverse order
          ControllerStateModel states = controller.getStates();
@@ -774,6 +846,11 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
                unregisterMBean(context);
             }
          }
+         
+         // AEJB test time
+   		  System.out.println("deploy="+deploy.toString() + " " + System.nanoTime());
+   	  
+         
 
          // Go through the states in order
          ControllerStateModel states = controller.getStates();
@@ -1090,6 +1167,19 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
 
       DeploymentContext deploymentContext = deploymentControllerContext.getDeploymentContext();
       
+      // AEJB  add the Map **************
+      
+      if (classLoaderContextMap != null && deploymentContext != null)
+      {
+    	  BaseClassLoader bcl = (BaseClassLoader)deploymentContext.getClassLoader();
+    	  if (bcl != null)
+    	  {
+    		  classLoaderContextMap.put(bcl, deploymentContext);
+    	  }
+    	  
+      }
+      // ********************************
+      
       try
       {
          List<Deployer> theDeployers = getDeployersList(stageName);
@@ -1139,7 +1229,7 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
        	  // ***********************************************************
     	  // AEJB add the nameList and find session bean , touch it (by lhc 2012.12.13)
     	  // AEJB modify the code because of unitName Set (by lhc 2012.12.30)
-    	  
+    	  /*
     	  if (stageName.equals("Installed")){
     		  ArrayList<String>  nameList = new ArrayList<String>();
     		  List<DeploymentContext> list = deploymentContext.getComponents();
@@ -1156,13 +1246,26 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
       						if (nameList.contains(setItem)){
           						for(String k:hm.keySet()){
           							if (hm.get(k).contains(setItem)){
-          								try{
-          									String cmd = k.substring(7).substring(0,k.length()-8);
-          									//System.out.println("Deployer---$$$---touchName:"+cmd);
-          				    				Runtime.getRuntime().exec("touch "+cmd);
+          								String cmd = "";
+          								String addr = "";
+          								try{			
+        									Properties prop = System.getProperties();
+        									String os = prop.getProperty("os.name");
+        									//System.out.println(os);
+        									if (os.startsWith("win") || os.startsWith("Win")){
+        										addr = k.substring(8).substring(0,k.length()-9);
+        										addr = addr.replace('/', '\\');
+        										cmd = "cmd /c copy /y "+addr+"+nul "+addr+" /by";
+        									}
+        									else{
+        										addr = k.substring(7).substring(0,k.length()-8);
+        										cmd = "touch " + addr; 
+        									}					
+        				    				Runtime.getRuntime().exec(cmd);
+        				    				System.out.println("After exe:"+cmd);
           				    			  }
           				    			  catch (Exception e){
-          				    				  System.out.println("CMD touch exception\n"+e.toString());
+          				    				  System.out.println("Deployer--- CMD touch exception "+cmd+"\n"+e.toString());
           				    			  }
           							}
           						}
@@ -1175,7 +1278,7 @@ public class DeployersImpl implements Deployers, ControllerContextActions,
       				// can move to this place
       			}
       		}
-      	  }
+      	  }*/
       	  
       	  // *****************************************************************
       	  
