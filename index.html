@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Reconstructionwithclassloader by haaappy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Reconstructionwithclassloader</h1>
+      <h2 class="project-tagline">Extend hot deployment of JBoss5, dependency reconstruction with class loaders</h2>
+      <a href="https://github.com/haaappy/ReconstructionWithClassLoader" class="btn">View on GitHub</a>
+      <a href="https://github.com/haaappy/ReconstructionWithClassLoader/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/haaappy/ReconstructionWithClassLoader/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="依赖修复在应用服务器上的集成" class="anchor" href="#%E4%BE%9D%E8%B5%96%E4%BF%AE%E5%A4%8D%E5%9C%A8%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84%E9%9B%86%E6%88%90" aria-hidden="true"><span class="octicon octicon-link"></span></a>依赖修复在应用服务器上的集成</h1>
+
+<h2>
+<a id="jboss510调试环境搭建" class="anchor" href="#jboss510%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jboss5.1.0调试环境搭建</h2>
+
+<h3>
+<a id="环境" class="anchor" href="#%E7%8E%AF%E5%A2%83" aria-hidden="true"><span class="octicon octicon-link"></span></a>环境</h3>
+
+<ul>
+<li>Linux操作系统</li>
+<li>java version "1.6.0_24"</li>
+<li>Eclipse IDE for Java EE Developers  <a href="http://eclipse.org/downloads/?osType=linux">下载地址</a>
+</li>
+<li>Jboss可执行版本5.1.0  <a href="http://www.jboss.org/jbossas/downloads">下载地址</a>
+</li>
+</ul>
+
+<h3>
+<a id="源代码获取" class="anchor" href="#%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96" aria-hidden="true"><span class="octicon octicon-link"></span></a>源代码获取</h3>
+
+<p>从Eclipse的SVN中获取Jboss5.1.0的源代码：<a href="http://blog.csdn.net/sunguangran/article/details/6707650">方法链接</a></p>
+
+<p>获得的源代码是不完整的，并且是通过POM文件组织的。需要在命令行中用Maven工具进行构建——"mvn install"，但是源代码中的pom.xml文件缺少一些依赖，执行会报错，需要找到这些缺少的依赖所在的库，并在pom.xml中添加。<a href="http://www.mkyong.com/maven/how-to-add-remote-repository-in-maven-pom-xml/">链接</a></p>
+
+<p>还一有一种直接运行源代码中build文件夹下build.sh的方法，同样需要在顶层的pom.xml文件中的下添加插件库：</p>
+
+<pre><code>&lt;pluginRepository&gt;
+
+    &lt;id&gt;repo.grails.org&lt;/id&gt;
+
+    &lt;name&gt;JBoss Plugin Repo&lt;/name&gt;
+
+    &lt;url&gt;http://repo.grails.org/grails/libs-releases&lt;/url&gt;
+
+    &lt;releases&gt;
+
+        &lt;enabled&gt;true&lt;/enabled&gt;
+
+    &lt;/releases&gt;
+
+    &lt;snapshots&gt;
+
+        &lt;enabled&gt;true&lt;/enabled&gt;
+
+    &lt;/snapshots&gt;
+
+&lt;/pluginRepository&gt;
+</code></pre>
+
+<p>即可运行build.sh，并且这个build过程包含了maven过程，会在相应子项目中生成target文件夹及output文件夹，build文件夹下的output中的jboss-5.1.0.GA就是由源代码生成的可执行版本的Jboss5.1.0。同时在主目录会生成.m的隐藏文件夹（Ctrl+H显示），里面都是构建的工程时发现所缺失的源代码，并从远程库中下载下来，存放在.m2中。至此，所有的源代码均已经找到。</p>
+
+<h3>
+<a id="调试环境搭建" class="anchor" href="#%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" aria-hidden="true"><span class="octicon octicon-link"></span></a>调试环境搭建</h3>
+
+<p>建立Java Project,将可执行版本的jboss-5.1.0放入项目中，并将其bin,lib,common-&gt;lib,server-&gt;all下的所有JAR包设置为Java Project的build path，项目启动的入口是bin下run.jar中Main方法。此时可以通过设置为build path的JAR包中的.class文件进行断点运行察看，并不能修改源代码。这一过程需要将/home/happy/JBOSS/jboss-5.1.0.GA-src/build/output/jboss-5.1.0.GA/server/all/deployers/jbossweb.deployer/web.xml放入src文件夹，否则会报错。修改源代码的时候将找到的代码包解压，并设置为代码文件夹，放在Java Project下即可。运行时，新的.java文件或编译成.class文件放入bin中，重新将bin中的.class对应打包成JAR文件，替换原版本的Jboss的JAR文件即可。</p>
+
+<h3>
+<a id="数据库相关配置" class="anchor" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE" aria-hidden="true"><span class="octicon octicon-link"></span></a>数据库相关配置</h3>
+
+<p>实体Bean需要安装数据库，选用MySql5.5;
+在写实体Bean所需要的配置文件、驱动Jar包已经上传。详细说明参见教程中<a href="http://wenku.baidu.com/view/af87f8c50c22590102029d88.html">第六章</a>
+安装的数据库需要有个名为aejb_test的数据库，用户名为root，密码为123456。</p>
+
+<h2>
+<a id="应用服务器层面的依赖修复" class="anchor" href="#%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B1%82%E9%9D%A2%E7%9A%84%E4%BE%9D%E8%B5%96%E4%BF%AE%E5%A4%8D" aria-hidden="true"><span class="octicon octicon-link"></span></a>应用服务器层面的依赖修复</h2>
+
+<h3>
+<a id="sessionbean-entitybean反向依赖重部署功能的实现" class="anchor" href="#sessionbean-entitybean%E5%8F%8D%E5%90%91%E4%BE%9D%E8%B5%96%E9%87%8D%E9%83%A8%E7%BD%B2%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%9E%E7%8E%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>SessionBean-&gt;EntityBean反向依赖重部署功能的实现</h3>
+
+<ul>
+<li><p>需要修改的源码
+jboss-deployers-impl.jar中org.jboss.deployers.plugins.deployers下的DeployersImpl.java
+jboss-ejb3-core.jar中的org.jboss.injection下的PcEncInjector.java</p></li>
+<li><p>部署流程
+DeployersImpl.java中是部署的主要流程。每个Bean部署时都会多次执行这部分的代码，因为部署的时候有多个阶段(stageName)，每个阶段都会执行一次install方法。其中install方法中的deploymentContext变量中记录了部署所需要的信息，随着部署阶段一步步的执行下去，它的内容会不断扩充。最后一个Installed阶段执行后，可以认为这个Bean已经部署完成。</p></li>
+<li><p>依赖关系
+PcEncInjector.java中的inject方法注入了SessionBean依赖EntityBean的关系，我们在这部分通过JNDI加入关系的映射表aejbConMap，key为SessionBean的路径，value为所依赖的单元名称的集合。</p></li>
+<li><p>反向查找
+在deployersImpl.java的install方法中，部署的最后一个Installed阶段,通过deploymentContext中的component字段来找在aejbConMap中是否有对应的value所含元素，反向查到被依赖的SessionBean的路径。</p></li>
+<li><p>重新部署
+调用外部的命令行touch命令，对sessionBean进行重新部署。</p></li>
+</ul>
+
+<h3>
+<a id="sessionbean-sessionbean反向依赖重部署功能的实现" class="anchor" href="#sessionbean-sessionbean%E5%8F%8D%E5%90%91%E4%BE%9D%E8%B5%96%E9%87%8D%E9%83%A8%E7%BD%B2%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%9E%E7%8E%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>SessionBean-&gt;SessionBean反向依赖重部署功能的实现</h3>
+
+<ul>
+<li><p>需要修改的源码
+jboss-ejb3-core.jar中的org.jboss.ejb下的EJBContainer.java
+jboss-ejb3-core.jar中的org.jboss.injection下的EjbEncInjector.java</p></li>
+<li><p>部署流程
+同SessionBean-&gt;EntityBean。</p></li>
+<li><p>依赖关系
+EjbEncInjector.java中的inject方法注入了SessionBean依赖SessionBean的关系，我们在这部分通过JNDI加入关系的映射表aejbConMap，key为SessionBean的路径，value为所依赖的接口名称的集合。</p></li>
+<li><p>反向查找
+在EJBContainer.java的start方法中的最后阶段，通过容器中的getBusinessInterfaces()查找在aejbConMap中是否有对应的value所含元素，反向查到被依赖的SessionBean的路径。（与SessionBean-&gt;EntityBean不同的是，接口信息只能在Container中找到，所以无法在DeployersImpl中进行）</p></li>
+<li><p>重新部署
+调用外部的命令行touch命令，对sessionBean进行重新部署。</p></li>
+</ul>
+
+<h3>
+<a id="生成新的可执行版本" class="anchor" href="#%E7%94%9F%E6%88%90%E6%96%B0%E7%9A%84%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%89%88%E6%9C%AC" aria-hidden="true"><span class="octicon octicon-link"></span></a>生成新的可执行版本</h3>
+
+<p>参照所要修改的Jar文件，将这个Jar包按原来的文件组织重新打包，并替换，即可执行。</p>
+
+<h3>
+<a id="参考资料" class="anchor" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99" aria-hidden="true"><span class="octicon octicon-link"></span></a>参考资料</h3>
+
+<h4>
+<a id="jboss部署流程" class="anchor" href="#jboss%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>JBoss部署流程</h4>
+
+<p>org.jboss.deployment.scanner.URLDeploymentScanner负责热部署的执行。它作为一个MBean，在JBoss启动时被创建。JBoss启动时，会调用它的createService方法。该方法又会其父类AbstractDeploymentScanner的createService方法。其父亲的createService方法会创建一个ScannerThread线程，这个线程每隔一段时间就会调用URLDeploymentScanner的scan方法。scan方法的工作就是检查deploy目录下的变化，并调用MainDeployer的相应方法来进行重新部署、销毁等操作。</p>
+
+<p>MainDeployer将为部署单元查找能够部署它的SubDeployer。例如，MainDeployer会为EJB组件找到EJBDeployer。所有的SubDeployer同MainDeployer一样，都是在JBoss启动时创建的。而且，每个SubDeployer都被注册到MainDeployer中，这样MainDeloyer就能找到它们。</p>
+
+<p>接着，MainDeployer将部署单元添加到部署等待队列中。这个队列的作用是，如果某个部署单元因为依赖关系不满足，而不能被部署，则将它暂存起来。但依赖关系满足时，MainDeployer就可以从等待队列中将它取出，并重新部署。再接着，MainDeployer将调用部署单元的SubDeployer的init方法，进行特定于组件类型的初始化工作。然后MainDeployer为部署单元创建一个统一类加载器UCL，这个与JBoss的类加载器架构有关。</p>
+
+<p><a href="http://www.myexception.cn/operating-system/770304.html">详细部署流程链接</a></p>
+
+<h4>
+<a id="jboss类加载机制" class="anchor" href="#jboss%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6" aria-hidden="true"><span class="octicon octicon-link"></span></a>JBoss类加载机制</h4>
+
+<p>Jboss实现了自己的类装载器UnifiedClassLoader3，它继承了标准的java.net.URLClassLoader，覆盖了标准的parent delegation模型以使用共享class和资源仓库（respository）org.jboss.mx.loading.UnifiedLoaderRepository3。一般来说，一个顶层的deployment就有一个UnifiedClassLoader3实例为之工作。一个deployment所装载的类，其他deployment是可见的，全局唯一的UnifiedLoaderRepository3实例用于管理这些类，以及装载它们的UnifieClassLoader3实例。UnifiedLoaderRepository3实例和UnifieClassLoader3实例是一对多的关系。</p>
+
+<p>追溯Jboss5.1.0的源码，jboss-classloader.jar、boss-classloading-spi.jar、jboss-classloading-vfs.jar和jboss-classloading.jar中就有Jboss中自定义的类加载器。EJB包中用到的类都是由jboss的org.jboss.mx.loading.UnifiedClassLoader3来加载的。</p>
+
+<h2>
+<a id="类加载器层面的依赖修复" class="anchor" href="#%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%E5%B1%82%E9%9D%A2%E7%9A%84%E4%BE%9D%E8%B5%96%E4%BF%AE%E5%A4%8D" aria-hidden="true"><span class="octicon octicon-link"></span></a>类加载器层面的依赖修复</h2>
+
+<h3>
+<a id="集成设计" class="anchor" href="#%E9%9B%86%E6%88%90%E8%AE%BE%E8%AE%A1" aria-hidden="true"><span class="octicon octicon-link"></span></a>集成设计</h3>
+
+<p>我们仍然选择JBossAS 5.1进行类加载器层的依赖修复技术的集成。这次的依赖修复是在类加载器层面，依赖关系将在加载过程中获得。从应用服务器层上的依赖修复过程中，我们可以将部署过程进行动态管理方式的扩展，并引入新的具有依赖管理功能的类加载器。</p>
+
+<h3>
+<a id="集成实现" class="anchor" href="#%E9%9B%86%E6%88%90%E5%AE%9E%E7%8E%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>集成实现</h3>
+
+<ul>
+<li><p>需要修改的源码
+jboss-deployers-impl.jar中org.jboss.deployers.plugins.deployers下的DeployersImpl.java
+jboss-classloader.jar中的org.jboss.classloader.spi.base下的BaseClassLoader.java</p></li>
+<li><p>类加载器
+JBossAS 5.1.0中，负责对部署单元加载的类加载器名为BaseClassLoader。类加载器层面上的依赖修复需要类加载器对依赖进行管理，换句话说，在类加载的过程中需要构建依赖关系图。在这个类加载器中，我们需要增加两个重要的数据结构：reverseDepList和dependencyClassMap。其中，reverseDepList记录了当前的类加载器被哪些类加载器所依赖，类似于在应用服务器层面上依赖修复技术中的反向依赖映射表。同理，dependencyClassMap是一个Map，它的Key是String类型的类名称，Value是BaseClassLoader类型的该类所依赖的类加载器。由于类之间的引用关系，需要其它模块的类加载器的辅助加载，我们通过dependencyClassMap来记录当前的类中所依赖的其它类加载器。</p></li>
+<li><p>部署流程
+JBossAS 5.1.0的部署流程主要是由DeployerImpl类实现的，这个类的process方法就是部署的主要过程。在依赖修复技术中，依赖由类加载器来维护，但是我们需要部署流程的某一阶段触发重新部署达到修复的目的。根据部署规范，部署是一个典型的三段过程：配置阶段、分发阶段和执行阶段。部署单元的上下文环境在配置阶段中被创建，并且在重部署过程中它们的上下文环境没有发生改变。分发阶段用来负责装载模块并加载类。我们可以在分发阶段前使用原有的上下文环境信息，仅仅更新它的模块类加载器。所以，在修复依赖的重部署过程中节省了创建并设置部署单元环境上下文的时间。在部署流程的扩展上，我们使用classLoaderContextMap 来记录类加载器和部署单元环境上下文
+的映射关系，使用reconstructionSet来获得所有受到更新影响的部署单元。最后在process方法的配置阶段之后分发阶段之前，执行依赖模块的更新类加载器并重部署的过程。</p></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/haaappy/ReconstructionWithClassLoader">Reconstructionwithclassloader</a> is maintained by <a href="https://github.com/haaappy">haaappy</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
