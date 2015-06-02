@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wscoor="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema>
+            <xs:import namespace="http://www.w3.org/2005/08/addressing" schemaLocation="ws-addr.xsd"/>
+            <xs:import namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06" schemaLocation="wscoor.xsd"/>
+          </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="Register">
+    <wsdl:part name="parameters" element="wscoor:Register">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="RegisterResponse">
+    <wsdl:part name="parameters" element="wscoor:RegisterResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateCoordinationContext">
+    <wsdl:part name="parameters" element="wscoor:CreateCoordinationContext">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateCoordinationContextResponse">
+    <wsdl:part name="parameters" element="wscoor:CreateCoordinationContextResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="RegistrationPortType">
+    <wsdl:operation name="RegisterOperation">
+      <wsdl:input message="wscoor:Register" wsa:Action="http://docs.oasis-open.org/ws-tx/wscoor/2006/06/Register">
+    </wsdl:input>
+      <wsdl:output message="wscoor:RegisterResponse" wsa:Action="http://docs.oasis-open.org/ws-tx/wscoor/2006/06/RegisterResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ActivationPortType">
+    <wsdl:operation name="CreateCoordinationContextOperation">
+      <wsdl:input message="wscoor:CreateCoordinationContext" wsa:Action="http://docs.oasis-open.org/ws-tx/wscoor/2006/06/CreateCoordinationContext">
+    </wsdl:input>
+      <wsdl:output message="wscoor:CreateCoordinationContextResponse" wsa:Action="http://docs.oasis-open.org/ws-tx/wscoor/2006/06/CreateCoordinationContextResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

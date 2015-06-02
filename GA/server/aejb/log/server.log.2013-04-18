@@ -1,0 +1,727 @@
+2013-04-18 18:26:41,278 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2013-04-18 18:26:45,830 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2013-04-18 18:26:45,831 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2013-04-18 18:26:46,404 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2013-04-18 18:26:47,095 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@1c0adca[ defaultDomain='jboss' ]
+2013-04-18 18:26:51,346 WARN  [org.jboss.deployment.MappedReferenceMetaDataResolverDeployer] (main) Unresolved references exist in JBossMetaData:[#SessionABean:AnnotatedEJBReferenceMetaData{name=org.artemisprojects.aware.aejb.samples.complicate.session.SessionABean/b,ejb-ref-type=null,link=null,ignore-dependecy=false,mapped/jndi-name=SessionBBean/remote,resolved-jndi-name=null,beanInterface=interface org.artemisprojects.aware.aejb.samples.complicate.session.SessionB}]
+2013-04-18 18:26:51,461 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22427130{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/A.jar/}
+2013-04-18 18:26:51,461 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22427130{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/A.jar/}
+2013-04-18 18:26:51,463 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11381407{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/B.jar/}
+2013-04-18 18:26:51,464 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11381407{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/B.jar/}
+2013-04-18 18:26:51,467 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@20529756{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/learnEJB.jar/}
+2013-04-18 18:26:51,467 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@20529756{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/learnEJB.jar/}
+2013-04-18 18:26:51,468 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@21071495{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:26:51,468 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@21071495{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:26:51,468 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@21071495{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:26:51,468 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@21071495{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:26:52,513 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2013-04-18 18:26:53,634 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2013-04-18 18:26:55,032 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2013-04-18 18:26:55,048 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2013-04-18 18:26:55,113 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2013-04-18 18:26:55,197 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2013-04-18 18:26:55,198 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2013-04-18 18:26:55,417 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2013-04-18 18:26:55,506 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2013-04-18 18:26:55,506 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2013-04-18 18:26:55,520 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2013-04-18 18:26:55,873 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2013-04-18 18:26:55,916 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2013-04-18 18:26:55,916 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2013-04-18 18:26:55,929 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2013-04-18 18:26:55,930 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2013-04-18 18:26:55,963 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 46 ms
+2013-04-18 18:26:55,978 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2013-04-18 18:26:56,581 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2013-04-18 18:26:56,586 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2013-04-18 18:26:56,586 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2013-04-18 18:26:56,708 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2013-04-18 18:26:56,776 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2013-04-18 18:26:56,791 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2013-04-18 18:26:56,815 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/META-INF/ra.xml
+2013-04-18 18:26:57,251 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2013-04-18 18:26:57,703 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2013-04-18 18:26:57,804 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:26:57,804 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1e0860 started
+2013-04-18 18:26:57,805 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:26:57,805 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@16396ae started
+2013-04-18 18:26:57,816 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2013-04-18 18:26:57,818 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2013-04-18 18:26:57,818 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2013-04-18 18:26:57,821 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:26:57,823 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1e9d110 started
+2013-04-18 18:26:57,824 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2013-04-18 18:26:57,942 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2013-04-18 18:26:57,997 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' to JNDI name 'java:DefaultMySqlDS'
+2013-04-18 18:26:58,509 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: A.jar
+2013-04-18 18:26:58,512 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3
+2013-04-18 18:26:58,512 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:26:58,512 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:26:58,512 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote
+2013-04-18 18:26:58,512 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#c
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionABean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionA
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.complicate.session.SessionA
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionABean/remote
+2013-04-18 18:26:58,513 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3) to KernelDeployment of: A.jar
+2013-04-18 18:26:58,517 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@17fcc91{name=jboss.j2ee:jar=A.jar,name=SessionABean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:26:58,591 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: B.jar
+2013-04-18 18:26:58,591 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3
+2013-04-18 18:26:58,591 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#d
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#e
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.complicate.session.SessionB
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SessionBBean/remote-org.artemisprojects.aware.aejb.samples.complicate.session.SessionB
+2013-04-18 18:26:58,592 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3) to KernelDeployment of: B.jar
+2013-04-18 18:26:58,593 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@12a954{name=jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:26:58,630 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#c
+2013-04-18 18:26:58,736 INFO  [org.hibernate.cfg.annotations.Version] (main) Hibernate Annotations 3.4.0.GA
+2013-04-18 18:26:58,751 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.3.1.GA
+2013-04-18 18:26:58,757 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2013-04-18 18:26:58,760 INFO  [org.hibernate.cfg.Environment] (main) Bytecode provider name : javassist
+2013-04-18 18:26:58,763 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2013-04-18 18:26:58,829 INFO  [org.hibernate.annotations.common.Version] (main) Hibernate Commons Annotations 3.1.0.GA
+2013-04-18 18:26:58,832 INFO  [org.hibernate.ejb.Version] (main) Hibernate EntityManager 3.4.0.GA
+2013-04-18 18:26:58,858 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: c
+	...]
+2013-04-18 18:26:58,868 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:26:58,925 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityC
+2013-04-18 18:26:58,960 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityC on table EntityC
+2013-04-18 18:26:58,993 INFO  [org.hibernate.validator.Version] (main) Hibernate Validator 3.1.0.GA
+2013-04-18 18:26:59,027 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:26:59,083 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:26:59,088 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2013-04-18 18:26:59,339 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:26:59,340 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:26:59,373 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:26:59,376 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:26:59,377 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:26:59,379 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2013-04-18 18:26:59,379 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2013-04-18 18:26:59,380 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:26:59,383 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2013-04-18 18:26:59,383 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2013-04-18 18:26:59,383 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2013-04-18 18:26:59,383 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2013-04-18 18:26:59,383 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2013-04-18 18:26:59,387 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:26:59,387 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:26:59,388 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2013-04-18 18:26:59,388 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#c
+2013-04-18 18:26:59,388 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2013-04-18 18:26:59,392 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2013-04-18 18:26:59,392 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:26:59,392 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2013-04-18 18:26:59,393 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2013-04-18 18:26:59,456 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2013-04-18 18:26:59,573 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#c
+2013-04-18 18:26:59,574 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,584 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#c
+2013-04-18 18:26:59,584 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2013-04-18 18:26:59,591 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2013-04-18 18:26:59,592 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2013-04-18 18:26:59,696 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2013-04-18 18:26:59,698 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,711 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#d
+2013-04-18 18:26:59,712 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: d
+	...]
+2013-04-18 18:26:59,712 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:26:59,715 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityD
+2013-04-18 18:26:59,715 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityD on table EntityD
+2013-04-18 18:26:59,732 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:26:59,733 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:26:59,733 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2013-04-18 18:26:59,733 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:26:59,733 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:26:59,733 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:26:59,733 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:26:59,734 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:26:59,734 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:26:59,734 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2013-04-18 18:26:59,734 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#d
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2013-04-18 18:26:59,735 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2013-04-18 18:26:59,742 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2013-04-18 18:26:59,746 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#d
+2013-04-18 18:26:59,746 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,753 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#d
+2013-04-18 18:26:59,754 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2013-04-18 18:26:59,755 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2013-04-18 18:26:59,756 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2013-04-18 18:26:59,812 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2013-04-18 18:26:59,813 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,822 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#e
+2013-04-18 18:26:59,823 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: e
+	...]
+2013-04-18 18:26:59,823 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:26:59,825 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.complicate.entity.EntityE
+2013-04-18 18:26:59,825 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.complicate.entity.EntityE on table EntityE
+2013-04-18 18:26:59,840 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:26:59,841 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:26:59,841 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2013-04-18 18:26:59,841 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:26:59,841 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:26:59,841 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:26:59,841 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:26:59,841 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:26:59,841 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2013-04-18 18:26:59,841 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:26:59,842 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:26:59,842 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#e
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2013-04-18 18:26:59,843 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2013-04-18 18:26:59,850 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2013-04-18 18:26:59,853 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#e
+2013-04-18 18:26:59,853 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,862 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#e
+2013-04-18 18:26:59,862 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2013-04-18 18:26:59,864 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2013-04-18 18:26:59,865 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2013-04-18 18:26:59,928 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2013-04-18 18:26:59,930 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:26:59,979 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=B.jar,name=SessionBBean,service=EJB3
+2013-04-18 18:33:17,652 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2013-04-18 18:33:21,086 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2013-04-18 18:33:21,087 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2013-04-18 18:33:21,624 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2013-04-18 18:33:22,333 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@14c8822[ defaultDomain='jboss' ]
+2013-04-18 18:33:26,068 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@15853347{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:33:26,068 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@15853347{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:33:26,069 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27060894{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/learnEJB.jar/}
+2013-04-18 18:33:26,069 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@27060894{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/learnEJB.jar/}
+2013-04-18 18:33:26,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32803228{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:33:26,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32803228{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:33:26,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32803228{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:33:26,070 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@32803228{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2013-04-18 18:33:26,594 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2013-04-18 18:33:27,257 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2013-04-18 18:33:28,712 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2013-04-18 18:33:28,722 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2013-04-18 18:33:28,772 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2013-04-18 18:33:28,804 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2013-04-18 18:33:28,804 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2013-04-18 18:33:28,961 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2013-04-18 18:33:29,019 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2013-04-18 18:33:29,019 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2013-04-18 18:33:29,041 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2013-04-18 18:33:29,276 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2013-04-18 18:33:29,312 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2013-04-18 18:33:29,312 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2013-04-18 18:33:29,326 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2013-04-18 18:33:29,327 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2013-04-18 18:33:29,359 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 46 ms
+2013-04-18 18:33:29,371 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2013-04-18 18:33:29,739 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2013-04-18 18:33:29,740 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2013-04-18 18:33:29,740 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2013-04-18 18:33:29,824 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2013-04-18 18:33:29,876 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2013-04-18 18:33:29,885 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2013-04-18 18:33:29,912 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/META-INF/ra.xml
+2013-04-18 18:33:30,263 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2013-04-18 18:33:30,519 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2013-04-18 18:33:30,588 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:33:30,588 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1a21b63 started
+2013-04-18 18:33:30,588 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2013-04-18 18:33:30,589 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2013-04-18 18:33:30,593 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:33:30,593 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ef9e5e started
+2013-04-18 18:33:30,594 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2013-04-18 18:33:30,594 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1acd381 started
+2013-04-18 18:33:30,602 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2013-04-18 18:33:30,603 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2013-04-18 18:33:30,670 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2013-04-18 18:33:30,718 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' to JNDI name 'java:DefaultMySqlDS'
+2013-04-18 18:33:30,742 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:33:30,786 INFO  [org.hibernate.cfg.annotations.Version] (main) Hibernate Annotations 3.4.0.GA
+2013-04-18 18:33:30,797 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.3.1.GA
+2013-04-18 18:33:30,803 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2013-04-18 18:33:30,806 INFO  [org.hibernate.cfg.Environment] (main) Bytecode provider name : javassist
+2013-04-18 18:33:30,810 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2013-04-18 18:33:30,859 INFO  [org.hibernate.annotations.common.Version] (main) Hibernate Commons Annotations 3.1.0.GA
+2013-04-18 18:33:30,862 INFO  [org.hibernate.ejb.Version] (main) Hibernate EntityManager 3.4.0.GA
+2013-04-18 18:33:30,877 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: entendUnit
+	...]
+2013-04-18 18:33:30,886 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:33:30,944 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.greetperson.entity.Person
+2013-04-18 18:33:30,973 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity org.artemisprojects.aware.aejb.samples.greetperson.entity.Person on table persons
+2013-04-18 18:33:31,008 INFO  [org.hibernate.validator.Version] (main) Hibernate Validator 3.1.0.GA
+2013-04-18 18:33:31,045 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:33:31,081 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:33:31,085 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2013-04-18 18:33:31,236 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:33:31,237 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:33:31,247 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:33:31,250 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:33:31,252 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:33:31,253 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2013-04-18 18:33:31,253 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:33:31,253 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2013-04-18 18:33:31,253 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2013-04-18 18:33:31,253 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2013-04-18 18:33:31,254 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2013-04-18 18:33:31,254 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:33:31,254 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Maximum outer join fetch depth: 2
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2013-04-18 18:33:31,255 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:33:31,257 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2013-04-18 18:33:31,257 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2013-04-18 18:33:31,257 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2013-04-18 18:33:31,257 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2013-04-18 18:33:31,257 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2013-04-18 18:33:31,260 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:33:31,261 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:33:31,261 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2013-04-18 18:33:31,262 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#entendUnit
+2013-04-18 18:33:31,262 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2013-04-18 18:33:31,265 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2013-04-18 18:33:31,266 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:33:31,266 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2013-04-18 18:33:31,266 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2013-04-18 18:33:31,306 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2013-04-18 18:33:31,436 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:33:31,438 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:33:31,446 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:33:31,446 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2013-04-18 18:33:31,453 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) Running hbm2ddl schema export
+2013-04-18 18:33:31,454 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) exporting generated schema to database
+2013-04-18 18:33:31,563 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (main) schema export complete
+2013-04-18 18:33:31,566 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:33:31,738 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: GreeterSession.jar
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#entendUnit
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:GreeterBean/remote
+2013-04-18 18:33:31,740 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3) to KernelDeployment of: GreeterSession.jar
+2013-04-18 18:33:31,743 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1c107f4{name=jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:33:31,938 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:36:05,451 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:36:05,495 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:05,560 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: learnEJB.jar
+2013-04-18 18:36:05,560 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=learnEJB.jar,name=HelloWorld,service=EJB3
+2013-04-18 18:36:05,560 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:36:05,560 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:HelloWorld/remote
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:HelloWorld/remote-learn.HelloWorldRemote
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:learn.HelloWorldRemote
+2013-04-18 18:36:05,561 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=learnEJB.jar,name=HelloWorld,service=EJB3) to KernelDeployment of: learnEJB.jar
+2013-04-18 18:36:05,562 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@19faa8c{name=jboss.j2ee:jar=learnEJB.jar,name=HelloWorld,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:36:05,592 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=learnEJB.jar,name=HelloWorld,service=EJB3
+2013-04-18 18:36:05,593 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: learn.HelloWorld ejbName: HelloWorld
+2013-04-18 18:36:05,598 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	HelloWorld/remote - EJB3.x Default Remote Business Interface
+	HelloWorld/remote-learn.HelloWorldRemote - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:36:05,725 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2013-04-18 18:36:05,726 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2013-04-18 18:36:05,727 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2013-04-18 18:36:05,728 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1267553{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:36:05,728 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@50c91f{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:36:05,728 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@4e701b{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:36:05,752 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2013-04-18 18:36:05,753 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2013-04-18 18:36:05,760 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:05,787 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2013-04-18 18:36:05,788 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2013-04-18 18:36:05,799 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:05,836 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2013-04-18 18:36:05,849 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2013-04-18 18:36:05,864 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:05,943 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2013-04-18 18:36:06,026 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2013-04-18 18:36:06,216 INFO  [STDOUT] (main) After exe:touch /home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar
+2013-04-18 18:36:06,260 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2013-04-18 18:36:06,284 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2013-04-18 18:36:06,291 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 2m:53s:121ms
+2013-04-18 18:36:47,682 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:36:47,697 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:36:47,717 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Stopping persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:47,717 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2013-04-18 18:36:47,717 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:36:47,718 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:36:47,763 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:36:47,763 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:47,764 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:36:47,764 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:52,829 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Starting persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:52,830 INFO  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Processing PersistenceUnitInfo [
+	name: entendUnit
+	...]
+2013-04-18 18:36:52,831 WARN  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:36:52,833 INFO  [org.hibernate.cfg.AnnotationBinder] (HDScanner) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.greetperson.entity.Person
+2013-04-18 18:36:52,833 INFO  [org.hibernate.cfg.annotations.EntityBinder] (HDScanner) Bind entity org.artemisprojects.aware.aejb.samples.greetperson.entity.Person on table persons
+2013-04-18 18:36:52,846 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (HDScanner) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:36:52,847 INFO  [org.hibernate.connection.ConnectionProviderFactory] (HDScanner) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:36:52,848 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (HDScanner) Using provided datasource
+2013-04-18 18:36:52,848 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:36:52,849 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:36:52,849 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:36:52,849 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:36:52,850 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:36:52,850 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiated TransactionManagerLookup
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: auto
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Maximum outer join fetch depth: 2
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL inserts for batching: disabled
+2013-04-18 18:36:52,850 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:36:52,850 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {}
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JPA-QL strict compliance: enabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (HDScanner) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region prefix: persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: disabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:36:52,851 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2013-04-18 18:36:52,852 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Named query checking : enabled
+2013-04-18 18:36:52,857 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2013-04-18 18:36:52,860 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:52,861 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:36:52,869 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:52,870 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2013-04-18 18:36:52,871 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:36:52,871 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:36:52,946 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:36:52,948 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:36:52,967 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:36:52,971 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:36:52,977 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (HDScanner) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:36:53,014 INFO  [STDOUT] (HDScanner) After exe:touch /home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar
+2013-04-18 18:36:58,032 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:36:58,037 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:36:58,074 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@29448278{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:36:58,074 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@29448278{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:36:58,085 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Created KernelDeployment for: GreeterSession.jar
+2013-04-18 18:36:58,085 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) installing bean: jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   with dependencies:
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and demands:
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	persistence.unit:unitName=#entendUnit
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and supplies:
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	Class:org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote
+2013-04-18 18:36:58,086 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Added bean(jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3) to KernelDeployment of: GreeterSession.jar
+2013-04-18 18:36:58,087 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (HDScanner) Deploy AbstractBeanMetaData@12719ad{name=jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:36:58,108 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:38:48,121 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:38:48,128 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (HDScanner) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:39:08,223 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:39:08,228 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:39:08,243 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Stopping persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:08,243 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2013-04-18 18:39:08,243 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:39:08,244 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:39:08,281 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:39:08,282 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:08,282 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:39:08,282 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:13,334 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Starting persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:13,335 INFO  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Processing PersistenceUnitInfo [
+	name: entendUnit
+	...]
+2013-04-18 18:39:13,335 WARN  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:39:13,337 INFO  [org.hibernate.cfg.AnnotationBinder] (HDScanner) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.greetperson.entity.Person
+2013-04-18 18:39:13,337 INFO  [org.hibernate.cfg.annotations.EntityBinder] (HDScanner) Bind entity org.artemisprojects.aware.aejb.samples.greetperson.entity.Person on table persons
+2013-04-18 18:39:13,351 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (HDScanner) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:39:13,351 INFO  [org.hibernate.connection.ConnectionProviderFactory] (HDScanner) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:39:13,352 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (HDScanner) Using provided datasource
+2013-04-18 18:39:13,352 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:39:13,352 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:39:13,352 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:39:13,352 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:39:13,353 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:39:13,353 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiated TransactionManagerLookup
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: auto
+2013-04-18 18:39:13,353 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Maximum outer join fetch depth: 2
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL inserts for batching: disabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:39:13,354 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {}
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JPA-QL strict compliance: enabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:39:13,354 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (HDScanner) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region prefix: persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: disabled
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2013-04-18 18:39:13,355 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Named query checking : enabled
+2013-04-18 18:39:13,360 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2013-04-18 18:39:13,364 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:13,364 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:39:13,371 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:13,372 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2013-04-18 18:39:13,373 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:39:13,374 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:39:13,448 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:39:13,450 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:39:13,468 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:39:13,471 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:39:13,561 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (HDScanner) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:39:13,601 INFO  [STDOUT] (HDScanner) After exe:touch /home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar
+2013-04-18 18:39:18,618 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:39:18,623 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:39:18,658 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@9281575{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:39:18,658 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@9281575{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:39:18,667 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Created KernelDeployment for: GreeterSession.jar
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) installing bean: jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   with dependencies:
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and demands:
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	persistence.unit:unitName=#entendUnit
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and supplies:
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	Class:org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote
+2013-04-18 18:39:18,668 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Added bean(jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3) to KernelDeployment of: GreeterSession.jar
+2013-04-18 18:39:18,669 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (HDScanner) Deploy AbstractBeanMetaData@18f8577{name=jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:39:18,695 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:45:36,857 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:45:36,867 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (HDScanner) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:45:41,918 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:45:41,922 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:45:41,937 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Stopping persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:41,937 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) closing
+2013-04-18 18:45:41,937 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:45:41,938 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:45:41,979 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:45:41,980 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbinding factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:41,980 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:45:41,980 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Unbound factory from JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:42,016 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (HDScanner) Starting persistence unit persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:42,017 INFO  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Processing PersistenceUnitInfo [
+	name: entendUnit
+	...]
+2013-04-18 18:45:42,017 WARN  [org.hibernate.ejb.Ejb3Configuration] (HDScanner) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2013-04-18 18:45:42,019 INFO  [org.hibernate.cfg.AnnotationBinder] (HDScanner) Binding entity from annotated class: org.artemisprojects.aware.aejb.samples.greetperson.entity.Person
+2013-04-18 18:45:42,020 INFO  [org.hibernate.cfg.annotations.EntityBinder] (HDScanner) Bind entity org.artemisprojects.aware.aejb.samples.greetperson.entity.Person on table persons
+2013-04-18 18:45:42,034 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (HDScanner) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-04-18 18:45:42,035 INFO  [org.hibernate.connection.ConnectionProviderFactory] (HDScanner) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-04-18 18:45:42,035 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (HDScanner) Using provided datasource
+2013-04-18 18:45:42,035 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) RDBMS: MySQL, version: 5.5.28-0ubuntu0.12.04.2
+2013-04-18 18:45:42,035 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.3 ( $Date: 2006-07-26 17:26:47 +0200 (Wed, 26 Jul 2006) $, $Revision: 5553 $ )
+2013-04-18 18:45:42,036 INFO  [org.hibernate.dialect.Dialect] (HDScanner) Using dialect: org.hibernate.dialect.MySQLDialect
+2013-04-18 18:45:42,036 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (HDScanner) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2013-04-18 18:45:42,036 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2013-04-18 18:45:42,036 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (HDScanner) instantiated TransactionManagerLookup
+2013-04-18 18:45:42,036 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic flush during beforeCompletion(): disabled
+2013-04-18 18:45:42,036 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Automatic session close at end of transaction: disabled
+2013-04-18 18:45:42,036 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch size: 15
+2013-04-18 18:45:42,036 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC batch updates for versioned data: disabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Scrollable result sets: enabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JDBC3 getGeneratedKeys(): enabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Connection release mode: auto
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Maximum outer join fetch depth: 2
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default batch fetch size: 1
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Generate SQL with comments: disabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL updates by primary key: disabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Order SQL inserts for batching: disabled
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-04-18 18:45:42,037 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (HDScanner) Using ASTQueryTranslatorFactory
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query language substitutions: {}
+2013-04-18 18:45:42,037 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) JPA-QL strict compliance: enabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Second-level cache: enabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Query cache: disabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (HDScanner) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Optimize cache for minimal puts: disabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Cache region prefix: persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Structured second-level cache entries: disabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Statistics: disabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Deleted entity synthetic identifier rollback: disabled
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Default entity-mode: pojo
+2013-04-18 18:45:42,038 INFO  [org.hibernate.cfg.SettingsFactory] (HDScanner) Named query checking : enabled
+2013-04-18 18:45:42,044 INFO  [org.hibernate.impl.SessionFactoryImpl] (HDScanner) building session factory
+2013-04-18 18:45:42,048 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Factory name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:42,048 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:45:42,056 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) Bound factory to JNDI name: persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:42,056 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (HDScanner) InitialContext did not implement EventContext
+2013-04-18 18:45:42,057 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) Running hbm2ddl schema export
+2013-04-18 18:45:42,058 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) exporting generated schema to database
+2013-04-18 18:45:42,120 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (HDScanner) schema export complete
+2013-04-18 18:45:42,122 INFO  [org.hibernate.util.NamingHelper] (HDScanner) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2013-04-18 18:45:42,138 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:45:42,140 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STARTED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:45:42,145 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (HDScanner) Binding the following Entries in Global JNDI:
+
+	GreeterBean/remote - EJB3.x Default Remote Business Interface
+	GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter - EJB3.x Remote Business Interface
+
+2013-04-18 18:45:42,182 INFO  [STDOUT] (HDScanner) After exe:touch /home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar
+2013-04-18 18:45:47,201 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Stopping jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:45:47,204 INFO  [org.jboss.ejb3.EJBContainer] (HDScanner) STOPPED EJB: org.artemisprojects.aware.aejb.samples.greetperson.session.GreeterBean ejbName: GreeterBean
+2013-04-18 18:45:47,250 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@4821972{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:45:47,250 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (HDScanner) Encountered deployment AbstractVFSDeploymentContext@4821972{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/GreeterSession.jar/}
+2013-04-18 18:45:47,262 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Created KernelDeployment for: GreeterSession.jar
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) installing bean: jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   with dependencies:
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and demands:
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	persistence.unit:unitName=#entendUnit
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jboss.ejb:service=EJBTimerService
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner)   and supplies:
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote-org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	Class:org.artemisprojects.aware.aejb.samples.greetperson.session.Greeter
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) 	jndi:GreeterBean/remote
+2013-04-18 18:45:47,263 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (HDScanner) Added bean(jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3) to KernelDeployment of: GreeterSession.jar
+2013-04-18 18:45:47,265 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (HDScanner) Deploy AbstractBeanMetaData@313f4e{name=jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2013-04-18 18:45:47,308 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (HDScanner) Starting jboss.j2ee:jar=GreeterSession.jar,name=GreeterBean,service=EJB3

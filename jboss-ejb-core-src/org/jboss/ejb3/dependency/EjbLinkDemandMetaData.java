@@ -172,7 +172,6 @@ public class EjbLinkDemandMetaData extends JBossObject
       }
    }
 
-@Override
 public ControllerState getTargetState() {
 	// TODO Auto-generated method stub
 	return null;

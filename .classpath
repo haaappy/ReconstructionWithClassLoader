@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="jboss-ejb-core-src"/>
-	<classpathentry kind="src" path="jboss-deployers-impl-src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="jboss-ejb-core-src"/>
+	<classpathentry including="**/*.java" kind="src" path="jboss-deployers-impl-src"/>
+	<classpathentry kind="src" path="jboss-classloader-src"/>
+	<classpathentry including="**/*.java" kind="src" path="jboss-deployers-vfs-src"/>
+	<classpathentry including="**/*.java" kind="src" path="jboss-as-system-src"/>
 	<classpathentry kind="lib" path="GA/bin/run.jar"/>
 	<classpathentry kind="lib" path="GA/lib/endorsed/activation.jar"/>
 	<classpathentry kind="lib" path="GA/lib/endorsed/jaxb-api.jar"/>
@@ -30,21 +37,21 @@
 	<classpathentry kind="lib" path="GA/lib/jboss-aop-mc-int.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-aop.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-bootstrap.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-classloader.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-classloader.jar" sourcepath="/home/happy/.m2/repository/org/jboss/cl/jboss-classloader/2.0.6.GA/jboss-classloader-2.0.6.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-classloading-spi.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-classloading-vfs.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-classloading.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-common-core.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-dependency.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-dependency.jar" sourcepath="/home/happy/.m2/repository/org/jboss/microcontainer/jboss-dependency/2.0.6.GA/jboss-dependency-2.0.6.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-deployers-client-spi.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-deployers-client.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-deployers-core-spi.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-deployers-core.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-deployers-impl.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-deployers-spi.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-deployers-structure-spi.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-deployers-vfs-spi.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-deployers-vfs.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-deployers-spi.jar" sourcepath="/home/happy/.m2/repository/org/jboss/deployers/jboss-deployers-spi/2.0.7.GA/jboss-deployers-spi-2.0.7.GA-sources.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-deployers-structure-spi.jar" sourcepath="/home/happy/.m2/repository/org/jboss/deployers/jboss-deployers-structure-spi/2.0.7.GA/jboss-deployers-structure-spi-2.0.7.GA-sources.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-deployers-vfs-spi.jar" sourcepath="/home/happy/.m2/repository/org/jboss/deployers/jboss-deployers-vfs-spi/2.0.7.GA/jboss-deployers-vfs-spi-2.0.7.GA-sources.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-deployers-vfs.jar" sourcepath="/home/happy/.m2/repository/org/jboss/deployers/jboss-deployers-vfs/2.0.7.GA/jboss-deployers-vfs-2.0.7.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-j2se.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-jmx.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-kernel.jar"/>
@@ -59,9 +66,9 @@
 	<classpathentry kind="lib" path="GA/lib/jboss-mdr.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-metatype.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-profileservice-spi.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-reflect.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-reflect.jar" sourcepath="/home/happy/.m2/repository/org/jboss/jboss-reflect/2.0.2.GA/jboss-reflect-2.0.2.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-system-jmx.jar"/>
-	<classpathentry kind="lib" path="GA/lib/jboss-system.jar"/>
+	<classpathentry kind="lib" path="GA/lib/jboss-system.jar" sourcepath="/home/happy/JBOSS/jboss-as-system-5.1.0.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-vfs.jar"/>
 	<classpathentry kind="lib" path="GA/lib/jboss-xml-binding.jar"/>
 	<classpathentry kind="lib" path="GA/lib/log4j-boot.jar"/>
@@ -134,7 +141,7 @@
 	<classpathentry kind="lib" path="GA/common/lib/jboss-srp.jar"/>
 	<classpathentry kind="lib" path="GA/common/lib/jboss-threads.jar"/>
 	<classpathentry kind="lib" path="GA/common/lib/jboss-transaction-aspects.jar"/>
-	<classpathentry kind="lib" path="GA/common/lib/jboss.jar"/>
+	<classpathentry kind="lib" path="GA/common/lib/jboss.jar" sourcepath="/home/happy/JBOSS/jboss-as-server-5.1.0.GA-sources.jar"/>
 	<classpathentry kind="lib" path="GA/common/lib/jbossas-remoting.jar"/>
 	<classpathentry kind="lib" path="GA/common/lib/jbossha.jar"/>
 	<classpathentry kind="lib" path="GA/common/lib/jbossjts-integration.jar"/>
@@ -251,5 +258,15 @@
 	<classpathentry kind="lib" path="GA/server/all/deployers/webbeans.deployer/webbeans-spi.jar"/>
 	<classpathentry kind="lib" path="GA/server/all/deployers/xnio.deployer/xnio-metadata.jar"/>
 	<classpathentry kind="lib" path="GA/server/all/deployers/jboss-ejb3-endpoint-deployer.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

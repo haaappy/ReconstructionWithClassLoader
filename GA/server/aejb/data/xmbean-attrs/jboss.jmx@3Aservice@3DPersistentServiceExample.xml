@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- automatically produced by XMLAttributePersistenceManager -->
+<attribute-list date="20141224190640" id="jboss.jmx:service=PersistentServiceExample">
+<attribute name="SomeElement" type="org.w3c.dom.Element">
+<some-message>Welcome to the Athens 2004, Olympic Games!</some-message>
+</attribute>
+</attribute-list>

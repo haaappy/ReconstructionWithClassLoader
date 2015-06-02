@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="WSARJTX" targetNamespace="http://schemas.arjuna.com/ws/2005/10/wsarjtx" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsarjtx="http://schemas.arjuna.com/ws/2005/10/wsarjtx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <import namespace="http://schemas.arjuna.com/ws/2005/10/wsarjtx" location="wsarjtx.wsdl">
+    </import>
+  <binding name="TerminationParticipant_SOAPBinding" type="wsarjtx:TerminationParticipantPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="CompletedOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Completed" style="document"/>
+      <input name="Completed">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="ClosedOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Closed" style="document"/>
+      <input name="Closed">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="CancelledOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Cancelled" style="document"/>
+      <input name="Cancelled">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="FaultedOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Faulted" style="document"/>
+      <input name="Faulted">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="FaultOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Fault" style="document"/>
+      <input name="Fault">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+  </binding>
+  <service name="TerminationParticipantService">
+    <port name="TerminationParticipantPortType" binding="wsarjtx:TerminationParticipant_SOAPBinding">
+      <soap:address location="http://127.0.0.1:8080/ws-t11/TerminationParticipantService"/>
+    </port>
+  </service>
+</definitions>

@@ -21,6 +21,7 @@
  */
 package org.jboss.ejb3;
 
+import java.io.File;
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -35,6 +36,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
@@ -889,7 +891,7 @@ public abstract class EJBContainer implements Container, IndirectContainer<EJBCo
       
       //  ************************************************************************************
       // AEJB InterfacenameList and find session bean , touch it (by lhc 2012.12.30)
-      
+      /*
       for (Class<?> t:this.getBusinessInterfaces()){
     	  if (DeployersImpl.jndiProperties != null){
   			try{
@@ -898,13 +900,28 @@ public abstract class EJBContainer implements Container, IndirectContainer<EJBCo
   					if (list.contains(t.getName())){
   						for(String k:hm.keySet()){
   							if (hm.get(k).equals(list)){
+  								String cmd = "";
+  								String addr = "";
   								try{
-									String cmd = k.substring(7).substring(0,k.length()-8);
+									//String cmd = "touch" + k.substring(7).substring(0,k.length()-8);
 									//System.out.println("EJBContainer---$$$---touchName:"+cmd);
-				    				Runtime.getRuntime().exec("touch "+cmd);
+									Properties prop = System.getProperties();
+									String os = prop.getProperty("os.name");
+									//System.out.println(os);
+									if (os.startsWith("win") || os.startsWith("Win")){
+										addr = k.substring(8).substring(0,k.length()-9);
+										addr = addr.replace('/', '\\');
+										cmd = "cmd /c copy /y "+addr+"+nul "+addr+" /by";
+									}
+									else{
+										addr = k.substring(7).substring(0,k.length()-8);
+										cmd = "touch " + addr; 
+									}						
+				    				Runtime.getRuntime().exec(cmd);
+				    				System.out.println("After exe:"+cmd);
 				    			  }
 				    			  catch (Exception e){
-				    				  System.out.println("CMD touch exception\n"+e.toString());
+				    				  System.out.println("EJBContainer----CMD touch exception. "+cmd+"\n"+e.toString());
 				    			  }
   							}
   						}
@@ -916,7 +933,7 @@ public abstract class EJBContainer implements Container, IndirectContainer<EJBCo
 				// can move to this place
 			}
     	  }
-      }     
+      }  */   
       // ************************************************************************************
       
       

@@ -1,0 +1,751 @@
+2014-12-24 18:28:59,362 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2014-12-24 18:28:59,898 INFO  [STDOUT] (main) MainDeployerImpl finishTime:9779634010258
+2014-12-24 18:29:00,147 INFO  [STDOUT] (main) MainDeployerImpl StartTime:9779883344465
+2014-12-24 18:29:00,225 INFO  [STDOUT] (main) deploy=[AbstractVFSDeploymentContext@14863649{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/bsh.deployer/}, AbstractVFSDeploymentContext@27885165{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb3.deployer/}, AbstractVFSDeploymentContext@21199746{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-aop-jboss5.deployer/}, AbstractVFSDeploymentContext@31216000{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-jca.deployer/}, AbstractVFSDeploymentContext@22933406{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-threads.deployer/}, AbstractVFSDeploymentContext@23977402{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossweb.deployer/}, AbstractVFSDeploymentContext@12904312{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossws.deployer/}, AbstractVFSDeploymentContext@33025390{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/seam.deployer/}, AbstractVFSDeploymentContext@318733{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/webbeans.deployer/}, AbstractVFSDeploymentContext@20964879{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/xnio.deployer/}, AbstractVFSDeploymentContext@21793734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/alias-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@7110947{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/clustering-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@26368638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/dependency-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@24328516{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/directory-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@28618358{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ear-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@19530335{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@16902167{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/hibernate-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@2912982{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jsr77-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@2578248{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/logbridge-jboss-beans.xml}, AbstractVFSDeploymentContext@13856099{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/messaging-definitions-jboss-beans.xml}, AbstractVFSDeploymentContext@11712364{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/metadata-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@19419746{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/security-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@3725028{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-ejb3-endpoint-deployer.jar/}] 9779961314076
+2014-12-24 18:29:03,391 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2014-12-24 18:29:03,391 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2014-12-24 18:29:03,737 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2014-12-24 18:29:04,942 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@a14537[ defaultDomain='jboss' ]
+2014-12-24 18:29:05,429 INFO  [STDOUT] (main) MainDeployerImpl finishTime:9785164642945
+2014-12-24 18:29:05,711 INFO  [STDOUT] (main) MainDeployerImpl StartTime:9785446926671
+2014-12-24 18:29:05,766 INFO  [STDOUT] (main) deploy=[AbstractVFSDeploymentContext@6205627{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-interceptors-aop.xml}, AbstractVFSDeploymentContext@10805734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/connection-factories-service.xml}, AbstractVFSDeploymentContext@15395942{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/destinations-service.xml}, AbstractVFSDeploymentContext@21387919{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-timer-service.xml}, AbstractVFSDeploymentContext@31680004{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/hsqldb-persistence-service.xml}, AbstractVFSDeploymentContext@4103913{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/iiop-service.xml}, AbstractVFSDeploymentContext@20122506{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossweb.sar/}, AbstractVFSDeploymentContext@32922650{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossws.sar/}, AbstractVFSDeploymentContext@3848875{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-invoker-service.xml}, AbstractVFSDeploymentContext@28666134{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jsr88-service.xml}, AbstractVFSDeploymentContext@23530429{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/juddi-service.sar/}, AbstractVFSDeploymentContext@17190210{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/legacy-invokers-service.xml}, AbstractVFSDeploymentContext@12212164{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/legacy-service.xml}, AbstractVFSDeploymentContext@30943785{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mail-service.xml}, AbstractVFSDeploymentContext@12061572{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-service.xml}, AbstractVFSDeploymentContext@16528278{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/persistent-service.sar/}, AbstractVFSDeploymentContext@27190358{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/remoting-bisocket-service.xml}, AbstractVFSDeploymentContext@10546114{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-service.xml}, AbstractVFSDeploymentContext@14033246{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/uuid-key-generator.sar/}, AbstractVFSDeploymentContext@2664942{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-container-jboss-beans.xml}, AbstractVFSDeploymentContext@28069502{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-connectors-jboss-beans.xml}, AbstractVFSDeploymentContext@22369249{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-container-jboss-beans.xml}, AbstractVFSDeploymentContext@16114878{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-timerservice-jboss-beans.xml}, AbstractVFSDeploymentContext@24946867{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hdscanner-jboss-beans.xml}, AbstractVFSDeploymentContext@19382306{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jca-jboss-beans.xml}, AbstractVFSDeploymentContext@11991500{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-jboss-beans.xml}, AbstractVFSDeploymentContext@13226991{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-jboss-beans.xml}, AbstractVFSDeploymentContext@7932930{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/remoting-jboss-beans.xml}, AbstractVFSDeploymentContext@17012517{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-jboss-beans.xml}, AbstractVFSDeploymentContext@12072723{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-policies-jboss-beans.xml}, AbstractVFSDeploymentContext@2616281{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-jboss-beans.xml}, AbstractVFSDeploymentContext@1898272{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/}, AbstractVFSDeploymentContext@30015371{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/}, AbstractVFSDeploymentContext@4355895{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/}, AbstractVFSDeploymentContext@15530180{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hsqldb-ds.xml}, AbstractVFSDeploymentContext@29371951{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/jms-ds.xml}, AbstractVFSDeploymentContext@1587869{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mysql-ds.xml}, AbstractVFSDeploymentContext@11555298{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}, AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}, AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}, AbstractVFSDeploymentContext@14734464{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/xnio-provider.jar/}, AbstractVFSDeploymentContext@3714314{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ROOT.war/}, AbstractVFSDeploymentContext@15245562{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-console.war/}, AbstractVFSDeploymentContext@10530506{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/petstore1.3.ear/}] 9785502247669
+2014-12-24 18:29:08,581 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 18:29:08,626 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 18:29:08,631 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 18:29:08,651 WARN  [org.jboss.deployment.MappedReferenceMetaDataResolverDeployer] (main) Unresolved references exist in JBossMetaData:[#ComputeBean:AnnotatedEJBReferenceMetaData{name=org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean/validator,ejb-ref-type=null,link=null,ignore-dependecy=false,mapped/jndi-name=ValidatorBean/remote,resolved-jndi-name=null,beanInterface=interface org.artemisprojects.aware.aejb.samples.division.validation.Validator}]
+2014-12-24 18:29:08,656 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 18:29:08,814 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11555298{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}
+2014-12-24 18:29:08,815 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@11555298{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}
+2014-12-24 18:29:08,815 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}
+2014-12-24 18:29:08,816 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}
+2014-12-24 18:29:08,816 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 18:29:08,817 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 18:29:08,817 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 18:29:08,817 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 18:29:09,640 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2014-12-24 18:29:10,417 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2014-12-24 18:29:10,863 INFO  [STDOUT] (HDScanner) SSStart time=9790598612732
+2014-12-24 18:29:11,779 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2014-12-24 18:29:11,787 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2014-12-24 18:29:11,837 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2014-12-24 18:29:11,910 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2014-12-24 18:29:11,911 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2014-12-24 18:29:12,152 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2014-12-24 18:29:12,418 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2014-12-24 18:29:12,470 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2014-12-24 18:29:12,495 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2014-12-24 18:29:12,818 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-7-sun/jre/lib/i386/server:/usr/lib/jvm/java-7-sun/jre/lib/i386:/usr/lib/jvm/java-7-sun/jre/../lib/i386:/usr/lib/jvm/java-7-sun/jre/lib/i386/client:/usr/lib/jvm/java-7-sun/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib
+2014-12-24 18:29:12,862 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 18:29:12,863 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 18:29:12,881 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2014-12-24 18:29:12,883 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2014-12-24 18:29:12,931 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 68 ms
+2014-12-24 18:29:12,949 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2014-12-24 18:29:13,460 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2014-12-24 18:29:13,511 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2014-12-24 18:29:13,528 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2014-12-24 18:29:13,528 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2014-12-24 18:29:13,654 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2014-12-24 18:29:13,671 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2014-12-24 18:29:13,692 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/META-INF/ra.xml
+2014-12-24 18:29:14,077 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2014-12-24 18:29:14,471 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2014-12-24 18:29:14,525 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 18:29:14,525 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@11c7c9 started
+2014-12-24 18:29:14,534 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2014-12-24 18:29:14,538 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 18:29:14,538 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@cb553f started
+2014-12-24 18:29:14,539 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2014-12-24 18:29:14,540 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2014-12-24 18:29:14,540 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2014-12-24 18:29:14,541 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 18:29:14,541 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@59f4cf started
+2014-12-24 18:29:14,609 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2014-12-24 18:29:14,640 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' to JNDI name 'java:DefaultMySqlDS'
+2014-12-24 18:29:14,643 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 18:29:14,685 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 18:29:14,888 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: DivisionCompute.jar
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ComputeBean/remote-org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ComputeBean/remote
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 18:29:14,889 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3) to KernelDeployment of: DivisionCompute.jar
+2014-12-24 18:29:14,891 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@5664b2{name=jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 18:29:14,948 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 18:29:14,948 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 18:29:14,954 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 18:29:14,954 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: DivisionValidator2.jar
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote-org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 18:29:14,960 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3) to KernelDeployment of: DivisionValidator2.jar
+2014-12-24 18:29:14,961 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1426966{name=jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 18:29:15,015 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 18:29:15,035 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean ejbName: ValidatorBean
+2014-12-24 18:29:15,068 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 18:29:15,071 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	ValidatorBean/remote - EJB3.x Default Remote Business Interface
+	ValidatorBean/remote-org.artemisprojects.aware.aejb.samples.division.validation.Validator - EJB3.x Remote Business Interface
+
+2014-12-24 18:29:15,114 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 18:29:15,153 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean ejbName: ComputeBean
+2014-12-24 18:29:15,158 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 18:29:15,159 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	ComputeBean/remote - EJB3.x Default Remote Business Interface
+	ComputeBean/remote-org.artemisprojects.aware.aejb.samples.division.compute.Compute - EJB3.x Remote Business Interface
+
+2014-12-24 18:29:15,172 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 18:29:15,172 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 18:29:15,368 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2014-12-24 18:29:15,368 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2014-12-24 18:29:15,369 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 18:29:15,370 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 18:29:15,370 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 18:29:15,370 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 18:29:15,370 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 18:29:15,371 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 18:29:15,371 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2014-12-24 18:29:15,371 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2014-12-24 18:29:15,371 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2014-12-24 18:29:15,371 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2014-12-24 18:29:15,372 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 18:29:15,373 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1562e8b{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 18:29:15,373 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@10b845e{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 18:29:15,374 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@11971c{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 18:29:15,412 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 18:29:15,413 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2014-12-24 18:29:15,424 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2014-12-24 18:29:15,461 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 18:29:15,462 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2014-12-24 18:29:15,476 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2014-12-24 18:29:15,510 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 18:29:15,520 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2014-12-24 18:29:15,531 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2014-12-24 18:29:15,628 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2014-12-24 18:29:15,703 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2014-12-24 18:29:15,774 INFO  [STDOUT] (main) MainDeployerImpl finishTime:9795509981691
+2014-12-24 18:29:15,791 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 18:29:15,813 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 18:29:15,818 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 20s:920ms
+2014-12-24 18:29:15,865 INFO  [STDOUT] (HDScanner) SSStart time=9795601150932
+2014-12-24 18:29:20,883 INFO  [STDOUT] (HDScanner) SSStart time=9800618812190
+2014-12-24 18:29:25,892 INFO  [STDOUT] (HDScanner) SSStart time=9805628541558
+2014-12-24 18:29:30,902 INFO  [STDOUT] (HDScanner) SSStart time=9810638308037
+2014-12-24 18:29:35,916 INFO  [STDOUT] (HDScanner) SSStart time=9815651960940
+2014-12-24 18:29:40,926 INFO  [STDOUT] (HDScanner) SSStart time=9820661760939
+2014-12-24 18:29:45,933 INFO  [STDOUT] (HDScanner) SSStart time=9825668635061
+2014-12-24 18:29:50,942 INFO  [STDOUT] (HDScanner) SSStart time=9830678262085
+2014-12-24 18:29:55,954 INFO  [STDOUT] (HDScanner) SSStart time=9835689819719
+2014-12-24 18:30:00,960 INFO  [STDOUT] (HDScanner) SSStart time=9840696275180
+2014-12-24 18:30:00,978 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:9840713899264
+2014-12-24 18:30:00,981 INFO  [STDOUT] (HDScanner) deploy=[AbstractVFSDeploymentContext@11155837{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossts-tools.sar/}] 9840717612515
+2014-12-24 18:30:01,069 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:9840804635889
+2014-12-24 18:30:06,069 INFO  [STDOUT] (HDScanner) SSStart time=9845805373525
+2014-12-24 18:30:11,079 INFO  [STDOUT] (HDScanner) SSStart time=9850814781717
+2014-12-24 18:30:16,088 INFO  [STDOUT] (HDScanner) SSStart time=9855823954505
+2014-12-24 18:30:21,096 INFO  [STDOUT] (HDScanner) SSStart time=9860831841366
+2014-12-24 18:30:26,105 INFO  [STDOUT] (HDScanner) SSStart time=9865840850454
+2014-12-24 18:30:31,113 INFO  [STDOUT] (HDScanner) SSStart time=9870848991912
+2014-12-24 18:30:36,122 INFO  [STDOUT] (HDScanner) SSStart time=9875858360740
+2014-12-24 18:30:41,131 INFO  [STDOUT] (HDScanner) SSStart time=9880867055008
+2014-12-24 18:30:46,138 INFO  [STDOUT] (HDScanner) SSStart time=9885873771906
+2014-12-24 18:30:51,147 INFO  [STDOUT] (HDScanner) SSStart time=9890882800945
+2014-12-24 18:30:56,156 INFO  [STDOUT] (HDScanner) SSStart time=9895892090273
+2014-12-24 18:31:01,162 INFO  [STDOUT] (HDScanner) SSStart time=9900898167691
+2014-12-24 18:31:06,171 INFO  [STDOUT] (HDScanner) SSStart time=9905907120069
+2014-12-24 18:31:11,180 INFO  [STDOUT] (HDScanner) SSStart time=9910916041603
+2014-12-24 18:31:16,186 INFO  [STDOUT] (HDScanner) SSStart time=9915922465323
+2014-12-24 18:31:21,195 INFO  [STDOUT] (HDScanner) SSStart time=9920931279183
+2014-12-24 18:31:26,205 INFO  [STDOUT] (HDScanner) SSStart time=9925941190755
+2014-12-24 18:31:31,214 INFO  [STDOUT] (HDScanner) SSStart time=9930949927276
+2014-12-24 18:31:36,222 INFO  [STDOUT] (HDScanner) SSStart time=9935958295842
+2014-12-24 18:31:36,248 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:9935984327214
+2014-12-24 18:31:36,275 INFO  [STDOUT] (HDScanner) deploy=[AbstractVFSDeploymentContext@22621617{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossxts.sar/}] 9936010979875
+2014-12-24 18:31:36,933 INFO  [org.jboss.jbossts.XTSService] (HDScanner) JBossTS XTS Transaction Service - starting
+2014-12-24 18:31:37,065 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-c11,endpoint=Activation Service
+2014-12-24 18:31:37,067 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-c11,endpoint=Registration Service
+2014-12-24 18:31:37,198 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Coordinator
+2014-12-24 18:31:37,199 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Participant
+2014-12-24 18:31:37,200 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Completion Coordinator
+2014-12-24 18:31:37,201 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Completion Initiator
+2014-12-24 18:31:37,201 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Coordinator
+2014-12-24 18:31:37,202 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Participant
+2014-12-24 18:31:37,203 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Coordinator
+2014-12-24 18:31:37,204 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Participant
+2014-12-24 18:31:37,205 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Termination Coordinator
+2014-12-24 18:31:37,206 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (HDScanner) register: jboss.ws:context=ws-t11,endpoint=Termination Participant
+2014-12-24 18:31:37,394 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/ws-c11
+2014-12-24 18:31:37,461 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/ws-t11
+2014-12-24 18:31:37,514 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/wscf11
+2014-12-24 18:31:37,550 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/wstx11
+2014-12-24 18:31:38,002 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,230 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,281 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:38,376 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,502 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,530 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:38,619 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-c11.war/wscoor-activation-binding.wsdl
+2014-12-24 18:31:38,636 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-c11.war/wscoor-registration-binding.wsdl
+2014-12-24 18:31:38,741 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,822 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,853 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:38,911 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:38,966 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,002 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,064 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,122 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,161 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,221 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,286 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,319 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,432 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,488 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,523 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,547 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,583 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,619 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,650 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,694 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,733 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,759 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,802 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (HDScanner) UsingAddressing extensibility element not supported yet.
+2014-12-24 18:31:39,833 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:39,940 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:40,008 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (HDScanner) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 18:31:40,043 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-coordinator-binding.wsdl
+2014-12-24 18:31:40,055 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-participant-binding.wsdl
+2014-12-24 18:31:40,065 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-completion-coordinator-binding.wsdl
+2014-12-24 18:31:40,074 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-completion-initiator-binding.wsdl
+2014-12-24 18:31:40,085 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-coordinator-completion-coordinator-binding.wsdl
+2014-12-24 18:31:40,092 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-coordinator-completion-participant-binding.wsdl
+2014-12-24 18:31:40,099 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-participant-completion-coordinator-binding.wsdl
+2014-12-24 18:31:40,106 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-participant-completion-participant-binding.wsdl
+2014-12-24 18:31:40,112 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsarjtx-termination-coordinator-binding.wsdl
+2014-12-24 18:31:40,116 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (HDScanner) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsarjtx-termination-participant-binding.wsdl
+2014-12-24 18:31:40,135 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:9939870650706
+2014-12-24 18:31:45,135 INFO  [STDOUT] (HDScanner) SSStart time=9944871219101
+2014-12-24 18:31:50,143 INFO  [STDOUT] (HDScanner) SSStart time=9949879514254
+2014-12-24 18:31:55,150 INFO  [STDOUT] (HDScanner) SSStart time=9954885686694
+2014-12-24 18:32:00,158 INFO  [STDOUT] (HDScanner) SSStart time=9959894180845
+2014-12-24 18:32:05,166 INFO  [STDOUT] (HDScanner) SSStart time=9964902138085
+2014-12-24 18:32:10,173 INFO  [STDOUT] (HDScanner) SSStart time=9969909002880
+2014-12-24 18:32:15,181 INFO  [STDOUT] (HDScanner) SSStart time=9974917363542
+2014-12-24 18:32:20,189 INFO  [STDOUT] (HDScanner) SSStart time=9979925346445
+2014-12-24 18:32:25,197 INFO  [STDOUT] (HDScanner) SSStart time=9984932911835
+2014-12-24 18:32:30,206 INFO  [STDOUT] (HDScanner) SSStart time=9989942202354
+2014-12-24 18:32:35,215 INFO  [STDOUT] (HDScanner) SSStart time=9994951452899
+2014-12-24 18:32:40,222 INFO  [STDOUT] (HDScanner) SSStart time=9999957658896
+2014-12-24 18:32:45,230 INFO  [STDOUT] (HDScanner) SSStart time=10004965754973
+2014-12-24 18:32:50,238 INFO  [STDOUT] (HDScanner) SSStart time=10009973901982
+2014-12-24 18:32:55,245 INFO  [STDOUT] (HDScanner) SSStart time=10014980981409
+2014-12-24 18:33:00,253 INFO  [STDOUT] (HDScanner) SSStart time=10019989313040
+2014-12-24 18:33:05,261 INFO  [STDOUT] (HDScanner) SSStart time=10024997363071
+2014-12-24 18:33:10,268 INFO  [STDOUT] (HDScanner) SSStart time=10030004552951
+2014-12-24 18:33:15,276 INFO  [STDOUT] (HDScanner) SSStart time=10035012079025
+2014-12-24 18:33:20,283 INFO  [STDOUT] (HDScanner) SSStart time=10040019481260
+2014-12-24 18:33:25,291 INFO  [STDOUT] (HDScanner) SSStart time=10045026948099
+2014-12-24 18:33:30,297 INFO  [STDOUT] (HDScanner) SSStart time=10050033182371
+2014-12-24 18:33:35,305 INFO  [STDOUT] (HDScanner) SSStart time=10055040642656
+2014-12-24 18:33:40,312 INFO  [STDOUT] (HDScanner) SSStart time=10060048132295
+2014-12-24 18:33:45,319 INFO  [STDOUT] (HDScanner) SSStart time=10065055568332
+2014-12-24 18:33:50,325 INFO  [STDOUT] (HDScanner) SSStart time=10070061433740
+2014-12-24 18:33:55,333 INFO  [STDOUT] (HDScanner) SSStart time=10075069311719
+2014-12-24 18:34:00,341 INFO  [STDOUT] (HDScanner) SSStart time=10080077118845
+2014-12-24 18:34:05,348 INFO  [STDOUT] (HDScanner) SSStart time=10085084438103
+2014-12-24 18:34:10,358 INFO  [STDOUT] (HDScanner) SSStart time=10090093805513
+2014-12-24 18:34:15,365 INFO  [STDOUT] (HDScanner) SSStart time=10095101290034
+2014-12-24 18:34:20,373 INFO  [STDOUT] (HDScanner) SSStart time=10100109005759
+2014-12-24 18:34:25,380 INFO  [STDOUT] (HDScanner) SSStart time=10105116465033
+2014-12-24 18:34:30,388 INFO  [STDOUT] (HDScanner) SSStart time=10110123876080
+2014-12-24 18:34:35,395 INFO  [STDOUT] (HDScanner) SSStart time=10115131420919
+2014-12-24 18:34:40,401 INFO  [STDOUT] (HDScanner) SSStart time=10120137507608
+2014-12-24 18:34:45,409 INFO  [STDOUT] (HDScanner) SSStart time=10125144858388
+2014-12-24 18:34:50,419 INFO  [STDOUT] (HDScanner) SSStart time=10130155131750
+2014-12-24 18:34:55,425 INFO  [STDOUT] (HDScanner) SSStart time=10135161273633
+2014-12-24 18:35:00,432 INFO  [STDOUT] (HDScanner) SSStart time=10140168604784
+2014-12-24 18:35:05,440 INFO  [STDOUT] (HDScanner) SSStart time=10145176210558
+2014-12-24 18:35:10,447 INFO  [STDOUT] (HDScanner) SSStart time=10150183438191
+2014-12-24 18:35:15,453 INFO  [STDOUT] (HDScanner) SSStart time=10155189369184
+2014-12-24 18:35:20,461 INFO  [STDOUT] (HDScanner) SSStart time=10160197211779
+2014-12-24 18:35:25,469 INFO  [STDOUT] (HDScanner) SSStart time=10165204713415
+2014-12-24 18:35:30,476 INFO  [STDOUT] (HDScanner) SSStart time=10170212089204
+2014-12-24 18:35:35,486 INFO  [STDOUT] (HDScanner) SSStart time=10175221909581
+2014-12-24 18:35:35,495 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:10175231134386
+2014-12-24 18:35:35,497 INFO  [STDOUT] (HDScanner) deploy=[AbstractVFSDeploymentContext@26088808{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}] 10175232814298
+2014-12-24 18:35:35,502 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:10175237874381
+2014-12-24 18:35:40,502 INFO  [STDOUT] (HDScanner) SSStart time=10180238263218
+2014-12-24 18:35:45,509 INFO  [STDOUT] (HDScanner) SSStart time=10185245573294
+2014-12-24 18:35:50,516 INFO  [STDOUT] (HDScanner) SSStart time=10190252610023
+2014-12-24 18:35:55,525 INFO  [STDOUT] (HDScanner) SSStart time=10195261356605
+2014-12-24 18:36:00,534 INFO  [STDOUT] (HDScanner) SSStart time=10200270016731
+2014-12-24 18:36:05,541 INFO  [STDOUT] (HDScanner) SSStart time=10205276725743
+2014-12-24 18:36:10,549 INFO  [STDOUT] (HDScanner) SSStart time=10210285576589
+2014-12-24 18:36:15,557 INFO  [STDOUT] (HDScanner) SSStart time=10215292957212
+2014-12-24 18:36:20,564 INFO  [STDOUT] (HDScanner) SSStart time=10220300340628
+2014-12-24 18:36:25,572 INFO  [STDOUT] (HDScanner) SSStart time=10225307732898
+2014-12-24 18:36:30,580 INFO  [STDOUT] (HDScanner) SSStart time=10230316450925
+2014-12-24 18:36:35,588 INFO  [STDOUT] (HDScanner) SSStart time=10235323914998
+2014-12-24 18:36:40,593 INFO  [STDOUT] (HDScanner) SSStart time=10240329485976
+2014-12-24 18:36:45,601 INFO  [STDOUT] (HDScanner) SSStart time=10245337019932
+2014-12-24 18:36:50,609 INFO  [STDOUT] (HDScanner) SSStart time=10250344710888
+2014-12-24 18:36:50,617 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:10250353304406
+2014-12-24 18:36:50,618 INFO  [STDOUT] (HDScanner) deploy=[AbstractVFSDeploymentContext@12630707{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/threaddump.war/}] 10250354527674
+2014-12-24 18:36:50,646 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (HDScanner) deploy, ctxPath=/threaddump
+2014-12-24 18:36:50,670 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:10250406041903
+2014-12-24 18:36:55,670 INFO  [STDOUT] (HDScanner) SSStart time=10255406463487
+2014-12-24 18:37:00,678 INFO  [STDOUT] (HDScanner) SSStart time=10260413806608
+2014-12-24 18:37:05,685 INFO  [STDOUT] (HDScanner) SSStart time=10265420746838
+2014-12-24 18:37:10,692 INFO  [STDOUT] (HDScanner) SSStart time=10270428104381
+2014-12-24 18:37:15,699 INFO  [STDOUT] (HDScanner) SSStart time=10275435530794
+2014-12-24 18:37:20,707 INFO  [STDOUT] (HDScanner) SSStart time=10280443099696
+2014-12-24 18:37:25,713 INFO  [STDOUT] (HDScanner) SSStart time=10285449168406
+2014-12-24 18:37:30,720 INFO  [STDOUT] (HDScanner) SSStart time=10290456581346
+2014-12-24 18:37:35,728 INFO  [STDOUT] (HDScanner) SSStart time=10295463952242
+2014-12-24 18:37:40,735 INFO  [STDOUT] (HDScanner) SSStart time=10300471571121
+2014-12-24 18:37:45,741 INFO  [STDOUT] (HDScanner) SSStart time=10305477401451
+2014-12-24 18:37:50,107 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2014-12-24 18:37:50,108 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 18:37:50,115 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 18:37:50,117 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 18:37:50,119 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 18:37:50,123 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:10309858781262
+2014-12-24 18:37:50,126 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@10530506{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/petstore1.3.ear/}, AbstractVFSDeploymentContext@12630707{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/threaddump.war/}, AbstractVFSDeploymentContext@15245562{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-console.war/}, AbstractVFSDeploymentContext@3714314{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ROOT.war/}, AbstractVFSDeploymentContext@14734464{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/xnio-provider.jar/}, AbstractVFSDeploymentContext@22434394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}, AbstractVFSDeploymentContext@26088808{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}, AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}, AbstractVFSDeploymentContext@11555298{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}, AbstractVFSDeploymentContext@1587869{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mysql-ds.xml}, AbstractVFSDeploymentContext@29371951{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/jms-ds.xml}, AbstractVFSDeploymentContext@15530180{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hsqldb-ds.xml}, AbstractVFSDeploymentContext@4355895{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/}, AbstractVFSDeploymentContext@30015371{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/}, AbstractVFSDeploymentContext@1898272{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/}, AbstractVFSDeploymentContext@2616281{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-jboss-beans.xml}, AbstractVFSDeploymentContext@12072723{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-policies-jboss-beans.xml}, AbstractVFSDeploymentContext@17012517{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-jboss-beans.xml}, AbstractVFSDeploymentContext@7932930{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/remoting-jboss-beans.xml}, AbstractVFSDeploymentContext@13226991{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-jboss-beans.xml}, AbstractVFSDeploymentContext@11991500{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-jboss-beans.xml}, AbstractVFSDeploymentContext@19382306{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jca-jboss-beans.xml}, AbstractVFSDeploymentContext@24946867{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hdscanner-jboss-beans.xml}, AbstractVFSDeploymentContext@16114878{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-timerservice-jboss-beans.xml}, AbstractVFSDeploymentContext@22369249{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-container-jboss-beans.xml}, AbstractVFSDeploymentContext@28069502{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-connectors-jboss-beans.xml}, AbstractVFSDeploymentContext@2664942{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-container-jboss-beans.xml}, AbstractVFSDeploymentContext@14033246{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/uuid-key-generator.sar/}, AbstractVFSDeploymentContext@10546114{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-service.xml}, AbstractVFSDeploymentContext@27190358{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/remoting-bisocket-service.xml}, AbstractVFSDeploymentContext@16528278{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/persistent-service.sar/}, AbstractVFSDeploymentContext@12061572{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-service.xml}, AbstractVFSDeploymentContext@30943785{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mail-service.xml}, AbstractVFSDeploymentContext@12212164{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/legacy-service.xml}, AbstractVFSDeploymentContext@17190210{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/legacy-invokers-service.xml}, AbstractVFSDeploymentContext@23530429{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/juddi-service.sar/}, AbstractVFSDeploymentContext@28666134{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jsr88-service.xml}, AbstractVFSDeploymentContext@3848875{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-invoker-service.xml}, AbstractVFSDeploymentContext@22621617{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossxts.sar/}, AbstractVFSDeploymentContext@32922650{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossws.sar/}, AbstractVFSDeploymentContext@20122506{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossweb.sar/}, AbstractVFSDeploymentContext@11155837{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossts-tools.sar/}, AbstractVFSDeploymentContext@4103913{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/iiop-service.xml}, AbstractVFSDeploymentContext@31680004{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/hsqldb-persistence-service.xml}, AbstractVFSDeploymentContext@21387919{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-timer-service.xml}, AbstractVFSDeploymentContext@15395942{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/destinations-service.xml}, AbstractVFSDeploymentContext@10805734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/connection-factories-service.xml}, AbstractVFSDeploymentContext@6205627{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-interceptors-aop.xml}] 10309862040275
+2014-12-24 18:37:50,132 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@11c7c9 undeployed
+2014-12-24 18:37:50,135 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@59f4cf undeployed
+2014-12-24 18:37:50,136 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@cb553f undeployed
+2014-12-24 18:37:50,145 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2014-12-24 18:37:50,146 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2014-12-24 18:37:50,164 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 18:37:50,171 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean ejbName: ComputeBean
+2014-12-24 18:37:50,187 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 18:37:50,195 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean ejbName: ValidatorBean
+2014-12-24 18:37:50,210 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 18:37:50,214 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2014-12-24 18:37:50,229 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 18:37:50,232 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2014-12-24 18:37:50,305 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 18:37:50,308 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2014-12-24 18:37:50,331 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2014-12-24 18:37:50,340 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2014-12-24 18:37:50,373 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2014-12-24 18:37:50,408 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2014-12-24 18:37:50,411 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2014-12-24 18:37:50,414 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2014-12-24 18:37:50,416 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2014-12-24 18:37:50,420 INFO  [org.jboss.jbossts.XTSService] (JBoss Shutdown Hook) JBossTS XTS Transaction Service - stopping
+2014-12-24 18:37:50,421 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/ws-c11
+2014-12-24 18:37:50,423 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/ws-t11
+2014-12-24 18:37:50,427 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/wscf11
+2014-12-24 18:37:50,429 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/wstx11
+2014-12-24 18:37:50,431 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/threaddump
+2014-12-24 18:37:50,433 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2014-12-24 18:37:50,461 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Coordinator
+2014-12-24 18:37:50,461 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Participant
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Completion Coordinator
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Completion Initiator
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Coordinator
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Participant
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Coordinator
+2014-12-24 18:37:50,462 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Participant
+2014-12-24 18:37:50,463 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Termination Coordinator
+2014-12-24 18:37:50,463 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Termination Participant
+2014-12-24 18:37:50,463 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-c11,endpoint=Activation Service
+2014-12-24 18:37:50,463 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-c11,endpoint=Registration Service
+2014-12-24 18:37:50,493 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2014-12-24 18:37:50,529 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2014-12-24 18:37:50,530 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' from JNDI name 'java:DefaultMySqlDS'
+2014-12-24 18:37:50,645 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2014-12-24 18:37:50,646 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2014-12-24 18:37:50,921 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2014-12-24 18:37:51,487 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl finishTime:10311223289496
+2014-12-24 18:37:51,488 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:10311224398766
+2014-12-24 18:37:51,489 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@3725028{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-ejb3-endpoint-deployer.jar/}, AbstractVFSDeploymentContext@19419746{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/security-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@11712364{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/metadata-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@13856099{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/messaging-definitions-jboss-beans.xml}, AbstractVFSDeploymentContext@2578248{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/logbridge-jboss-beans.xml}, AbstractVFSDeploymentContext@2912982{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jsr77-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@16902167{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/hibernate-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@19530335{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@28618358{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ear-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@24328516{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/directory-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@26368638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/dependency-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@7110947{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/clustering-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@21793734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/alias-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@20964879{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/xnio.deployer/}, AbstractVFSDeploymentContext@318733{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/webbeans.deployer/}, AbstractVFSDeploymentContext@33025390{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/seam.deployer/}, AbstractVFSDeploymentContext@12904312{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossws.deployer/}, AbstractVFSDeploymentContext@23977402{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossweb.deployer/}, AbstractVFSDeploymentContext@22933406{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-threads.deployer/}, AbstractVFSDeploymentContext@31216000{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-jca.deployer/}, AbstractVFSDeploymentContext@21199746{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-aop-jboss5.deployer/}, AbstractVFSDeploymentContext@27885165{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb3.deployer/}, AbstractVFSDeploymentContext@14863649{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/bsh.deployer/}] 10311225226691
+2014-12-24 18:37:52,099 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl finishTime:10311834776407
+2014-12-24 18:37:52,099 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:10311835302541
+2014-12-24 18:37:52,099 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@3338845{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/conf/jboss-service.xml}] 10311835434509
+2014-12-24 18:37:52,464 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2014-12-24 19:06:26,566 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2014-12-24 19:06:26,861 INFO  [STDOUT] (main) MainDeployerImpl finishTime:12026596892945
+2014-12-24 19:06:26,911 INFO  [STDOUT] (main) MainDeployerImpl StartTime:12026647622501
+2014-12-24 19:06:27,015 INFO  [STDOUT] (main) deploy=[AbstractVFSDeploymentContext@22933406{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/bsh.deployer/}, AbstractVFSDeploymentContext@9507429{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb3.deployer/}, AbstractVFSDeploymentContext@18697202{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-aop-jboss5.deployer/}, AbstractVFSDeploymentContext@9372703{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-jca.deployer/}, AbstractVFSDeploymentContext@32410187{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-threads.deployer/}, AbstractVFSDeploymentContext@31256346{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossweb.deployer/}, AbstractVFSDeploymentContext@14634391{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossws.deployer/}, AbstractVFSDeploymentContext@30777657{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/seam.deployer/}, AbstractVFSDeploymentContext@4973221{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/webbeans.deployer/}, AbstractVFSDeploymentContext@9450708{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/xnio.deployer/}, AbstractVFSDeploymentContext@849192{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/alias-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@11740027{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/clustering-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@14576609{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/dependency-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@8169261{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/directory-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@29598883{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ear-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@23977402{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@33025390{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/hibernate-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@318733{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jsr77-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@21793734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/logbridge-jboss-beans.xml}, AbstractVFSDeploymentContext@7110947{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/messaging-definitions-jboss-beans.xml}, AbstractVFSDeploymentContext@26368638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/metadata-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@24328516{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/security-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@28618358{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-ejb3-endpoint-deployer.jar/}] 12026751425297
+2014-12-24 19:06:29,743 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2014-12-24 19:06:29,743 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2014-12-24 19:06:30,510 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2014-12-24 19:06:31,238 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@934cf4[ defaultDomain='jboss' ]
+2014-12-24 19:06:31,696 INFO  [STDOUT] (main) MainDeployerImpl finishTime:12031431898301
+2014-12-24 19:06:31,801 INFO  [STDOUT] (main) MainDeployerImpl StartTime:12031536891729
+2014-12-24 19:06:31,873 INFO  [STDOUT] (main) deploy=[AbstractVFSDeploymentContext@4365675{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-interceptors-aop.xml}, AbstractVFSDeploymentContext@23927163{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/connection-factories-service.xml}, AbstractVFSDeploymentContext@27527720{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/destinations-service.xml}, AbstractVFSDeploymentContext@9886566{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-timer-service.xml}, AbstractVFSDeploymentContext@1974403{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/hsqldb-persistence-service.xml}, AbstractVFSDeploymentContext@32016096{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/iiop-service.xml}, AbstractVFSDeploymentContext@27190358{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossts-tools.sar/}, AbstractVFSDeploymentContext@15670452{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossweb.sar/}, AbstractVFSDeploymentContext@19868881{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossws.sar/}, AbstractVFSDeploymentContext@22149277{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossxts.sar/}, AbstractVFSDeploymentContext@4555896{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-invoker-service.xml}, AbstractVFSDeploymentContext@33285503{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jsr88-service.xml}, AbstractVFSDeploymentContext@507982{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/juddi-service.sar/}, AbstractVFSDeploymentContext@9966755{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/legacy-invokers-service.xml}, AbstractVFSDeploymentContext@7539949{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/legacy-service.xml}, AbstractVFSDeploymentContext@22395548{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mail-service.xml}, AbstractVFSDeploymentContext@21916394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-service.xml}, AbstractVFSDeploymentContext@21838004{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/persistent-service.sar/}, AbstractVFSDeploymentContext@12967212{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/remoting-bisocket-service.xml}, AbstractVFSDeploymentContext@3904748{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-service.xml}, AbstractVFSDeploymentContext@28201650{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/uuid-key-generator.sar/}, AbstractVFSDeploymentContext@28795527{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-container-jboss-beans.xml}, AbstractVFSDeploymentContext@10854242{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-connectors-jboss-beans.xml}, AbstractVFSDeploymentContext@25365106{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-container-jboss-beans.xml}, AbstractVFSDeploymentContext@2294462{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-timerservice-jboss-beans.xml}, AbstractVFSDeploymentContext@8985473{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hdscanner-jboss-beans.xml}, AbstractVFSDeploymentContext@23909710{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jca-jboss-beans.xml}, AbstractVFSDeploymentContext@2619050{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-jboss-beans.xml}, AbstractVFSDeploymentContext@28518795{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-jboss-beans.xml}, AbstractVFSDeploymentContext@23896068{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/remoting-jboss-beans.xml}, AbstractVFSDeploymentContext@8233948{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-jboss-beans.xml}, AbstractVFSDeploymentContext@9502814{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-policies-jboss-beans.xml}, AbstractVFSDeploymentContext@28256760{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-jboss-beans.xml}, AbstractVFSDeploymentContext@4314443{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/}, AbstractVFSDeploymentContext@21404437{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/}, AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/}, AbstractVFSDeploymentContext@15504413{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hsqldb-ds.xml}, AbstractVFSDeploymentContext@32519638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/jms-ds.xml}, AbstractVFSDeploymentContext@22975320{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mysql-ds.xml}, AbstractVFSDeploymentContext@1802852{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}, AbstractVFSDeploymentContext@890148{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}, AbstractVFSDeploymentContext@28998879{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}, AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}, AbstractVFSDeploymentContext@32258912{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/xnio-provider.jar/}, AbstractVFSDeploymentContext@27659436{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ROOT.war/}, AbstractVFSDeploymentContext@9043291{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-console.war/}, AbstractVFSDeploymentContext@22582510{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/threaddump.war/}, AbstractVFSDeploymentContext@10069333{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/petstore1.3.ear/}] 12031608811495
+2014-12-24 19:06:35,113 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 19:06:35,126 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 19:06:35,132 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 19:06:35,168 WARN  [org.jboss.deployment.MappedReferenceMetaDataResolverDeployer] (main) Unresolved references exist in JBossMetaData:[#ComputeBean:AnnotatedEJBReferenceMetaData{name=org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean/validator,ejb-ref-type=null,link=null,ignore-dependecy=false,mapped/jndi-name=ValidatorBean/remote,resolved-jndi-name=null,beanInterface=interface org.artemisprojects.aware.aejb.samples.division.validation.Validator}]
+2014-12-24 19:06:35,175 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 19:06:35,414 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1802852{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}
+2014-12-24 19:06:35,415 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1802852{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}
+2014-12-24 19:06:35,416 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@890148{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}
+2014-12-24 19:06:35,416 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@890148{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}
+2014-12-24 19:06:35,419 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 19:06:35,419 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 19:06:35,419 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 19:06:35,419 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}
+2014-12-24 19:06:36,059 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2014-12-24 19:06:36,704 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-c11,endpoint=Activation Service
+2014-12-24 19:06:36,705 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-c11,endpoint=Registration Service
+2014-12-24 19:06:36,707 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:36,735 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Coordinator
+2014-12-24 19:06:36,736 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Participant
+2014-12-24 19:06:36,737 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Completion Coordinator
+2014-12-24 19:06:36,738 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Completion Initiator
+2014-12-24 19:06:36,738 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Coordinator
+2014-12-24 19:06:36,739 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Participant
+2014-12-24 19:06:36,740 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Coordinator
+2014-12-24 19:06:36,741 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Participant
+2014-12-24 19:06:36,742 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Termination Coordinator
+2014-12-24 19:06:36,744 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=ws-t11,endpoint=Termination Participant
+2014-12-24 19:06:36,747 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:37,179 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:37,540 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:37,609 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:37,614 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:37,616 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:37,720 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:37,856 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:37,888 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:37,890 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:37,891 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:37,980 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-c11.war/wscoor-activation-binding.wsdl
+2014-12-24 19:06:38,005 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-c11.war/wscoor-registration-binding.wsdl
+2014-12-24 19:06:38,176 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,267 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,303 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,305 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,307 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,357 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,415 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,451 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,453 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,454 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,510 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,568 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,601 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,603 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,604 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,659 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,725 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,757 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,759 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,760 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,795 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,850 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,879 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,881 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,883 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,912 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,956 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:38,988 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:38,990 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:38,992 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,023 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:39,066 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:39,114 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:39,116 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,116 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,145 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:39,187 WARN  [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) UsingAddressing extensibility element not supported yet.
+2014-12-24 19:06:39,218 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:39,220 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,222 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,335 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:39,337 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,338 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,436 WARN  [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) SchemaLocation: schemaLocation value = 'http://java.sun.com/xml/ns/javaee' must have even number of URI's. @ *unknown*[26,56]
+2014-12-24 19:06:39,438 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,439 WARN  [org.jboss.wsf.common.management.AbstractServerConfig] (main) Unable to calculate 'WebServicePort', using default '8080'
+2014-12-24 19:06:39,476 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-coordinator-binding.wsdl
+2014-12-24 19:06:39,491 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-participant-binding.wsdl
+2014-12-24 19:06:39,505 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-completion-coordinator-binding.wsdl
+2014-12-24 19:06:39,520 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsat-completion-initiator-binding.wsdl
+2014-12-24 19:06:39,536 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-coordinator-completion-coordinator-binding.wsdl
+2014-12-24 19:06:39,547 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-coordinator-completion-participant-binding.wsdl
+2014-12-24 19:06:39,560 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-participant-completion-coordinator-binding.wsdl
+2014-12-24 19:06:39,571 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsba-participant-completion-participant-binding.wsdl
+2014-12-24 19:06:39,582 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsarjtx-termination-coordinator-binding.wsdl
+2014-12-24 19:06:39,589 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/data/wsdl/jbossxts.sar/ws-t11.war/wsarjtx-termination-participant-binding.wsdl
+2014-12-24 19:06:39,957 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2014-12-24 19:06:40,278 INFO  [STDOUT] (HDScanner) SSStart time=12040014316798
+2014-12-24 19:06:40,994 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2014-12-24 19:06:41,007 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2014-12-24 19:06:41,043 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2014-12-24 19:06:41,065 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2014-12-24 19:06:41,065 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2014-12-24 19:06:41,175 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2014-12-24 19:06:41,233 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2014-12-24 19:06:41,233 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2014-12-24 19:06:41,247 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2014-12-24 19:06:41,491 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-7-sun/jre/lib/i386/server:/usr/lib/jvm/java-7-sun/jre/lib/i386:/usr/lib/jvm/java-7-sun/jre/../lib/i386:/usr/lib/jvm/java-7-sun/jre/lib/i386/client:/usr/lib/jvm/java-7-sun/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib
+2014-12-24 19:06:41,523 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 19:06:41,524 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 19:06:41,535 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2014-12-24 19:06:41,537 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2014-12-24 19:06:41,566 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 42 ms
+2014-12-24 19:06:41,577 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2014-12-24 19:06:41,831 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2014-12-24 19:06:41,831 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2014-12-24 19:06:41,831 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2014-12-24 19:06:41,904 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/wstx11
+2014-12-24 19:06:41,927 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2014-12-24 19:06:41,949 INFO  [org.jboss.jbossts.XTSService] (main) JBossTS XTS Transaction Service - starting
+2014-12-24 19:06:42,007 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/wscf11
+2014-12-24 19:06:42,024 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/ws-c11
+2014-12-24 19:06:42,052 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/ws-t11
+2014-12-24 19:06:42,181 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2014-12-24 19:06:42,194 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2014-12-24 19:06:42,218 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/META-INF/ra.xml
+2014-12-24 19:06:42,456 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2014-12-24 19:06:42,679 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2014-12-24 19:06:42,720 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2014-12-24 19:06:42,721 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2014-12-24 19:06:42,748 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 19:06:42,748 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@168fd50 started
+2014-12-24 19:06:42,749 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 19:06:42,749 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@19b135b started
+2014-12-24 19:06:42,749 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2014-12-24 19:06:42,749 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2014-12-24 19:06:42,750 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2014-12-24 19:06:42,750 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@d01425 started
+2014-12-24 19:06:42,814 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2014-12-24 19:06:42,845 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' to JNDI name 'java:DefaultMySqlDS'
+2014-12-24 19:06:42,848 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 19:06:42,858 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 19:06:42,990 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: DivisionCompute.jar
+2014-12-24 19:06:42,992 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ComputeBean/remote-org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ComputeBean/remote
+2014-12-24 19:06:42,993 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 19:06:42,994 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3) to KernelDeployment of: DivisionCompute.jar
+2014-12-24 19:06:42,998 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@ccb606{name=jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 19:06:43,042 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 19:06:43,042 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean
+2014-12-24 19:06:43,051 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 19:06:43,051 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 19:06:43,059 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: DivisionValidator2.jar
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote-org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:ValidatorBean/remote
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 19:06:43,060 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3) to KernelDeployment of: DivisionValidator2.jar
+2014-12-24 19:06:43,061 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@53b59b{name=jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 19:06:43,349 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 19:06:43,353 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean ejbName: ValidatorBean
+2014-12-24 19:06:43,404 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.Validator
+2014-12-24 19:06:43,407 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	ValidatorBean/remote - EJB3.x Default Remote Business Interface
+	ValidatorBean/remote-org.artemisprojects.aware.aejb.samples.division.validation.Validator - EJB3.x Remote Business Interface
+
+2014-12-24 19:06:43,543 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 19:06:43,592 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean ejbName: ComputeBean
+2014-12-24 19:06:43,615 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.compute.Compute
+2014-12-24 19:06:43,616 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	ComputeBean/remote - EJB3.x Default Remote Business Interface
+	ComputeBean/remote-org.artemisprojects.aware.aejb.samples.division.compute.Compute - EJB3.x Remote Business Interface
+
+2014-12-24 19:06:43,636 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 19:06:43,636 INFO  [STDOUT] (main) hhhhh:: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean
+2014-12-24 19:06:43,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2014-12-24 19:06:43,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 19:06:43,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 19:06:43,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 19:06:43,753 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2014-12-24 19:06:43,754 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2014-12-24 19:06:43,755 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 19:06:43,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 19:06:43,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2014-12-24 19:06:43,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2014-12-24 19:06:43,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2014-12-24 19:06:43,756 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2014-12-24 19:06:43,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2014-12-24 19:06:43,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2014-12-24 19:06:43,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2014-12-24 19:06:43,757 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2014-12-24 19:06:43,758 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@ce3761{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 19:06:43,758 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1eb6c8e{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 19:06:43,758 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@55c648{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2014-12-24 19:06:43,797 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 19:06:43,798 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2014-12-24 19:06:43,809 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2014-12-24 19:06:43,842 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 19:06:43,843 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2014-12-24 19:06:43,855 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2014-12-24 19:06:43,886 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 19:06:43,897 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2014-12-24 19:06:43,907 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2014-12-24 19:06:44,005 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2014-12-24 19:06:44,065 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2014-12-24 19:06:44,127 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/threaddump
+2014-12-24 19:06:44,185 INFO  [STDOUT] (main) MainDeployerImpl finishTime:12043921238107
+2014-12-24 19:06:44,204 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 19:06:44,233 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 19:06:44,250 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=201211051048)] Started in 22s:142ms
+2014-12-24 19:06:45,281 INFO  [STDOUT] (HDScanner) SSStart time=12045017202341
+2014-12-24 19:06:45,303 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:12045039342066
+2014-12-24 19:06:45,304 INFO  [STDOUT] (HDScanner) undeploy=[AbstractVFSDeploymentContext@28998879{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}] 12045039621756
+2014-12-24 19:06:45,316 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:12045051614520
+2014-12-24 19:06:50,316 INFO  [STDOUT] (HDScanner) SSStart time=12050052069595
+2014-12-24 19:06:55,331 INFO  [STDOUT] (HDScanner) SSStart time=12055067071708
+2014-12-24 19:06:55,343 INFO  [STDOUT] (HDScanner) MainDeployerImpl StartTime:12055079123216
+2014-12-24 19:06:55,347 INFO  [STDOUT] (HDScanner) deploy=[AbstractVFSDeploymentContext@21798454{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}] 12055083349088
+2014-12-24 19:06:55,363 INFO  [STDOUT] (HDScanner) MainDeployerImpl finishTime:12055099205686
+2014-12-24 19:07:00,364 INFO  [STDOUT] (HDScanner) SSStart time=12060099761970
+2014-12-24 19:07:05,373 INFO  [STDOUT] (HDScanner) SSStart time=12065109026582
+2014-12-24 19:07:10,383 INFO  [STDOUT] (HDScanner) SSStart time=12070118744124
+2014-12-24 19:07:15,393 INFO  [STDOUT] (HDScanner) SSStart time=12075128712527
+2014-12-24 19:07:20,402 INFO  [STDOUT] (HDScanner) SSStart time=12080138474373
+2014-12-24 19:07:25,412 INFO  [STDOUT] (HDScanner) SSStart time=12085148536876
+2014-12-24 19:07:30,424 INFO  [STDOUT] (HDScanner) SSStart time=12090160403951
+2014-12-24 19:07:35,433 INFO  [STDOUT] (HDScanner) SSStart time=12095168900097
+2014-12-24 19:07:40,442 INFO  [STDOUT] (HDScanner) SSStart time=12100178284356
+2014-12-24 19:07:45,452 INFO  [STDOUT] (HDScanner) SSStart time=12105188295239
+2014-12-24 19:07:50,462 INFO  [STDOUT] (HDScanner) SSStart time=12110198121667
+2014-12-24 19:07:55,471 INFO  [STDOUT] (HDScanner) SSStart time=12115207044280
+2014-12-24 19:08:00,478 INFO  [STDOUT] (HDScanner) SSStart time=12120213706292
+2014-12-24 19:08:05,489 INFO  [STDOUT] (HDScanner) SSStart time=12125224973534
+2014-12-24 19:08:10,497 INFO  [STDOUT] (HDScanner) SSStart time=12130232944425
+2014-12-24 19:08:15,506 INFO  [STDOUT] (HDScanner) SSStart time=12135242333962
+2014-12-24 19:08:15,594 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2014-12-24 19:08:15,595 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 19:08:15,605 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2014-12-24 19:08:15,606 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 19:08:15,612 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2014-12-24 19:08:15,616 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:12135352037098
+2014-12-24 19:08:15,620 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@10069333{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/petstore1.3.ear/}, AbstractVFSDeploymentContext@22582510{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/threaddump.war/}, AbstractVFSDeploymentContext@9043291{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-console.war/}, AbstractVFSDeploymentContext@27659436{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ROOT.war/}, AbstractVFSDeploymentContext@32258912{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/xnio-provider.jar/}, AbstractVFSDeploymentContext@6042920{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-secured.jar/}, AbstractVFSDeploymentContext@21798454{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/derby-plugin.jar/}, AbstractVFSDeploymentContext@890148{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionValidator2.jar/}, AbstractVFSDeploymentContext@1802852{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/DivisionCompute.jar/}, AbstractVFSDeploymentContext@22975320{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mysql-ds.xml}, AbstractVFSDeploymentContext@32519638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/jms-ds.xml}, AbstractVFSDeploymentContext@15504413{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hsqldb-ds.xml}, AbstractVFSDeploymentContext@30411348{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jms-ra.rar/}, AbstractVFSDeploymentContext@21404437{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-xa-jdbc.rar/}, AbstractVFSDeploymentContext@4314443{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jboss-local-jdbc.rar/}, AbstractVFSDeploymentContext@28256760{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-jboss-beans.xml}, AbstractVFSDeploymentContext@9502814{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-policies-jboss-beans.xml}, AbstractVFSDeploymentContext@8233948{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/security/security-jboss-beans.xml}, AbstractVFSDeploymentContext@23896068{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/remoting-jboss-beans.xml}, AbstractVFSDeploymentContext@28518795{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/profileservice-jboss-beans.xml}, AbstractVFSDeploymentContext@2619050{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-jboss-beans.xml}, AbstractVFSDeploymentContext@23909710{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jca-jboss-beans.xml}, AbstractVFSDeploymentContext@8985473{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/hdscanner-jboss-beans.xml}, AbstractVFSDeploymentContext@2294462{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-timerservice-jboss-beans.xml}, AbstractVFSDeploymentContext@25365106{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-container-jboss-beans.xml}, AbstractVFSDeploymentContext@10854242{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-connectors-jboss-beans.xml}, AbstractVFSDeploymentContext@28795527{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-container-jboss-beans.xml}, AbstractVFSDeploymentContext@28201650{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/uuid-key-generator.sar/}, AbstractVFSDeploymentContext@3904748{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/transaction-service.xml}, AbstractVFSDeploymentContext@12967212{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/remoting-bisocket-service.xml}, AbstractVFSDeploymentContext@21838004{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/persistent-service.sar/}, AbstractVFSDeploymentContext@21916394{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/messaging-service.xml}, AbstractVFSDeploymentContext@22395548{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/mail-service.xml}, AbstractVFSDeploymentContext@7539949{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/legacy-service.xml}, AbstractVFSDeploymentContext@9966755{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/legacy-invokers-service.xml}, AbstractVFSDeploymentContext@507982{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/juddi-service.sar/}, AbstractVFSDeploymentContext@33285503{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jsr88-service.xml}, AbstractVFSDeploymentContext@4555896{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jmx-invoker-service.xml}, AbstractVFSDeploymentContext@22149277{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossxts.sar/}, AbstractVFSDeploymentContext@19868881{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossws.sar/}, AbstractVFSDeploymentContext@15670452{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossweb.sar/}, AbstractVFSDeploymentContext@27190358{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/jbossts-tools.sar/}, AbstractVFSDeploymentContext@32016096{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/iiop-service.xml}, AbstractVFSDeploymentContext@1974403{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/hsqldb-persistence-service.xml}, AbstractVFSDeploymentContext@9886566{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb2-timer-service.xml}, AbstractVFSDeploymentContext@27527720{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/destinations-service.xml}, AbstractVFSDeploymentContext@23927163{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/messaging/connection-factories-service.xml}, AbstractVFSDeploymentContext@4365675{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deploy/ejb3-interceptors-aop.xml}] 12135356323033
+2014-12-24 19:08:15,630 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@19b135b undeployed
+2014-12-24 19:08:15,633 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@d01425 undeployed
+2014-12-24 19:08:15,634 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@168fd50 undeployed
+2014-12-24 19:08:15,646 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2014-12-24 19:08:15,650 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2014-12-24 19:08:15,660 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=DivisionCompute.jar,name=ComputeBean,service=EJB3
+2014-12-24 19:08:15,668 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.division.compute.ComputeBean ejbName: ComputeBean
+2014-12-24 19:08:15,695 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=DivisionValidator2.jar,name=ValidatorBean,service=EJB3
+2014-12-24 19:08:15,704 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.artemisprojects.aware.aejb.samples.division.validation.ValidatorBean ejbName: ValidatorBean
+2014-12-24 19:08:15,721 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2014-12-24 19:08:15,727 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2014-12-24 19:08:15,784 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2014-12-24 19:08:15,788 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2014-12-24 19:08:15,802 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2014-12-24 19:08:15,806 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2014-12-24 19:08:15,824 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2014-12-24 19:08:15,834 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2014-12-24 19:08:15,863 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2014-12-24 19:08:15,866 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2014-12-24 19:08:15,885 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/wstx11
+2014-12-24 19:08:15,888 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2014-12-24 19:08:15,891 INFO  [org.jboss.jbossts.XTSService] (JBoss Shutdown Hook) JBossTS XTS Transaction Service - stopping
+2014-12-24 19:08:15,892 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/wscf11
+2014-12-24 19:08:15,895 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/ws-c11
+2014-12-24 19:08:15,898 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/ws-t11
+2014-12-24 19:08:15,901 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2014-12-24 19:08:15,903 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2014-12-24 19:08:15,905 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/threaddump
+2014-12-24 19:08:15,908 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2014-12-24 19:08:15,933 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Coordinator
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Participant
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Completion Coordinator
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Completion Initiator
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Coordinator
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Coordinator Completion Participant
+2014-12-24 19:08:15,934 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Coordinator
+2014-12-24 19:08:15,935 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Business Agreement With Participant Completion Participant
+2014-12-24 19:08:15,935 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Termination Coordinator
+2014-12-24 19:08:15,935 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-t11,endpoint=Termination Participant
+2014-12-24 19:08:15,935 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-c11,endpoint=Activation Service
+2014-12-24 19:08:15,935 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=ws-c11,endpoint=Registration Service
+2014-12-24 19:08:15,959 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2014-12-24 19:08:15,986 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2014-12-24 19:08:15,986 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultMySqlDS' from JNDI name 'java:DefaultMySqlDS'
+2014-12-24 19:08:16,106 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2014-12-24 19:08:16,108 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2014-12-24 19:08:16,382 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2014-12-24 19:08:16,919 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl finishTime:12136654947525
+2014-12-24 19:08:16,920 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:12136656109491
+2014-12-24 19:08:16,920 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@28618358{vfszip:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-ejb3-endpoint-deployer.jar/}, AbstractVFSDeploymentContext@24328516{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/security-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@26368638{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/metadata-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@7110947{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/messaging-definitions-jboss-beans.xml}, AbstractVFSDeploymentContext@21793734{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/logbridge-jboss-beans.xml}, AbstractVFSDeploymentContext@318733{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jsr77-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@33025390{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/hibernate-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@23977402{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@29598883{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ear-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@8169261{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/directory-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@14576609{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/dependency-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@11740027{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/clustering-deployer-jboss-beans.xml}, AbstractVFSDeploymentContext@849192{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/alias-deployers-jboss-beans.xml}, AbstractVFSDeploymentContext@9450708{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/xnio.deployer/}, AbstractVFSDeploymentContext@4973221{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/webbeans.deployer/}, AbstractVFSDeploymentContext@30777657{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/seam.deployer/}, AbstractVFSDeploymentContext@14634391{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossws.deployer/}, AbstractVFSDeploymentContext@31256346{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jbossweb.deployer/}, AbstractVFSDeploymentContext@32410187{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-threads.deployer/}, AbstractVFSDeploymentContext@9372703{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-jca.deployer/}, AbstractVFSDeploymentContext@18697202{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/jboss-aop-jboss5.deployer/}, AbstractVFSDeploymentContext@9507429{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/ejb3.deployer/}, AbstractVFSDeploymentContext@22933406{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/deployers/bsh.deployer/}] 12136656620522
+2014-12-24 19:08:17,510 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl finishTime:12137245948613
+2014-12-24 19:08:17,510 INFO  [STDOUT] (JBoss Shutdown Hook) MainDeployerImpl StartTime:12137246503138
+2014-12-24 19:08:17,510 INFO  [STDOUT] (JBoss Shutdown Hook) undeploy=[AbstractVFSDeploymentContext@12446074{vfsfile:/home/happy/JBOSS/workspace/adaptive-ejb/GA/server/aejb/conf/jboss-service.xml}] 12137246648085
+2014-12-24 19:08:17,826 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete

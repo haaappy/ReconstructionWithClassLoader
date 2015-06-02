@@ -144,7 +144,7 @@
 
 	<!-- The attachment store -->
 	<bean name="AttachmentStore" class="org.jboss.system.server.profileservice.repository.AbstractAttachmentStore">
-		<constructor><parameter><inject bean="BootstrapProfileFactory" property="attachmentStoreRoot" /></parameter></constructor>
+		<constructor><parameter class="java.io.File"><inject bean="BootstrapProfileFactory" property="attachmentStoreRoot" /></parameter></constructor>
 		<property name="mainDeployer"><inject bean="MainDeployer" /></property>
 		<property name="serializer"><inject bean="AttachmentsSerializer" /></property>
 		<property name="persistenceFactory"><inject bean="PersistenceFactory" /></property>

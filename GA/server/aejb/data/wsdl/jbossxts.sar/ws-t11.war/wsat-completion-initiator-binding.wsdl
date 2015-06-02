@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://docs.oasis-open.org/ws-tx/wsat/2006/06" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsat="http://docs.oasis-open.org/ws-tx/wsat/2006/06" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:import namespace="http://docs.oasis-open.org/ws-tx/wsat/2006/06" location="wsat.wsdl">
+    </wsdl:import>
+  <wsdl:binding name="CompletionInitiator_SOAPBinding" type="wsat:CompletionInitiatorPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="CommittedOperation">
+      <soap:operation soapAction="http://docs.oasis-open.org/ws-tx/wsat/2006/06/Committed" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="AbortedOperation">
+      <soap:operation soapAction="http://docs.oasis-open.org/ws-tx/wsat/2006/06/Aborted" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CompletionInitiatorService">
+    <wsdl:port name="CompletionInitiatorPortType" binding="wsat:CompletionInitiator_SOAPBinding">
+      <soap:address location="http://127.0.0.1:8080/ws-t11/CompletionInitiatorService"/>
+    <wsaw:UsingAddressing required="true"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

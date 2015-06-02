@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="WSARJTX-COORDINATOR-BINDING" targetNamespace="http://schemas.arjuna.com/ws/2005/10/wsarjtx" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsarjtx="http://schemas.arjuna.com/ws/2005/10/wsarjtx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <import namespace="http://schemas.arjuna.com/ws/2005/10/wsarjtx" location="wsarjtx.wsdl">
+    </import>
+  <binding name="TerminationCoordinator_SOAPBinding" type="wsarjtx:TerminationCoordinatorPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="CompleteOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Complete" style="document"/>
+      <input name="Complete">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="CloseOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Close" style="document"/>
+      <input name="Close">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+    <operation name="CancelOperation">
+      <soap:operation soapAction="http://schemas.arjuna.com/ws/2005/10/wsarjtx/Cancel" style="document"/>
+      <input name="Cancel">
+        <soap:body use="literal"/>
+      </input>
+    </operation>
+  </binding>
+  <service name="TerminationCoordinatorService">
+    <port name="TerminationCoordinatorPortType" binding="wsarjtx:TerminationCoordinator_SOAPBinding">
+      <soap:address location="http://127.0.0.1:8080/ws-t11/TerminationCoordinatorService"/>
+    </port>
+  </service>
+</definitions>
